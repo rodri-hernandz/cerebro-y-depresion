@@ -1,0 +1,698 @@
+{
+  "categorias": [
+    {
+      "id": "sustancias",
+      "nombre": "Sustancias"
+    },
+    {
+      "id": "experiencias",
+      "nombre": "Recompensas y experiencias"
+    },
+    {
+      "id": "adversos",
+      "nombre": "Eventos adversos"
+    }
+  ],
+  "estimulos": [
+    {
+      "id": "musica",
+      "categoria": "experiencias",
+      "nombre": "Escuchar una canción que te gusta",
+      "nombre_corto": "Música",
+      "icono": "🎵",
+      "nivel_evidencia": "directa",
+      "resumen_evidencia": "PET y fMRI en sanos muestran dopamina en caudado (anticipación) y accumbens (pico) con desactivación de la amígdala; dos estudios de fMRI en pacientes con TDM (Osuch 2009, Lepping 2016) documentan menor respuesta del estriado ventral, la orbitofrontal medial y la cingulada rostral a la música placentera.",
+      "secuencia": [
+        {
+          "region": "auditiva",
+          "t_inicio_s": 0,
+          "duracion_s": 8,
+          "intensidad": 0.8,
+          "nota": "Procesamiento acústico durante todo el fragmento"
+        },
+        {
+          "region": "caudado",
+          "t_inicio_s": 0.8,
+          "duracion_s": 3,
+          "intensidad": 0.7,
+          "nota": "Anticipación del pasaje favorito; liberación de dopamina en PET (Salimpoor 2011)"
+        },
+        {
+          "region": "atv",
+          "t_inicio_s": 1.5,
+          "duracion_s": 4,
+          "intensidad": 0.7,
+          "nota": "Mesencéfalo dopaminérgico con los escalofríos (Blood 2001)"
+        },
+        {
+          "region": "acc_rostral",
+          "t_inicio_s": 2,
+          "duracion_s": 4,
+          "intensidad": 0.5,
+          "mod_depresion": 0.5,
+          "nota": "Mayor respuesta a música positiva en sanos; en TDM el patrón se invierte hacia lo negativo (Lepping 2016)"
+        },
+        {
+          "region": "accumbens",
+          "t_inicio_s": 2.5,
+          "duracion_s": 3.5,
+          "intensidad": 1,
+          "mod_depresion": 0.6,
+          "nota": "Pico de placer / escalofrío; menor activación a música favorita en TDM (Osuch 2009)"
+        },
+        {
+          "region": "vmpfc",
+          "t_inicio_s": 2.5,
+          "duracion_s": 3.5,
+          "intensidad": 0.6,
+          "mod_depresion": 0.6,
+          "nota": "Orbitofrontal medial: valor hedónico; menor activación en TDM (Osuch 2009)"
+        },
+        {
+          "region": "insula",
+          "t_inicio_s": 2.5,
+          "duracion_s": 3,
+          "intensidad": 0.6,
+          "nota": "Componente corporal del escalofrío (Blood 2001)"
+        },
+        {
+          "region": "amigdala",
+          "t_inicio_s": 2.5,
+          "duracion_s": 4,
+          "intensidad": -0.4,
+          "nota": "Se desactiva con el placer musical (Blood 2001); sin medición directa en TDM"
+        }
+      ],
+      "neurotransmisores": {
+        "dopamina": {
+          "normal": 1.6
+        },
+        "opioides": {
+          "normal": 1.2
+        },
+        "cortisol": {
+          "normal": 0.85
+        }
+      },
+      "textos": {
+        "paciente": "Cuando escuchas tu canción favorita, el cerebro se comporta como si esperara un regalo: primero se enciende el 'motor de la anticipación' unos segundos antes del pasaje que más te gusta, y luego el 'centro del gusto' recibe una oleada de dopamina justo en el momento del escalofrío. Al mismo tiempo, la 'alarma de las emociones' tiende a bajar el volumen; por eso la música relaja. Con depresión, el centro del gusto y la zona que valora qué tan bueno es algo tienden a encenderse menos: la canción se reconoce como agradable, pero la chispa llega más apagada. Además, la zona que une emoción y pensamiento tiende a responder más a lo triste que a lo alegre.",
+        "clinico": "En sanos, la música autoseleccionada que produce 'escalofríos' incrementa el flujo sanguíneo en estriado ventral, mesencéfalo, ínsula y corteza orbitofrontal, con descenso concomitante en amígdala y corteza prefrontal ventromedial [ref:blood2001]. La PET con [11C]racloprida demuestra liberación endógena de dopamina en el caudado durante la anticipación y en el núcleo accumbens durante el pico hedónico [ref:salimpoor2011]. En pacientes con TDM, el contraste música favorita vs. neutra activa menos la corteza orbitofrontal medial y el accumbens/estriado ventral que en controles [ref:osuch2009]. La cingulada anterior rostral, que en sanos responde más a estímulos musicales positivos, en TDM muestra un patrón invertido con mayor respuesta a lo negativo [ref:lepping2016]. Estos hallazgos son congruentes con la hiporreactividad estriatal a recompensa documentada en meta-análisis de TDM [ref:keren2018,ng2019]. El nivel es 'directa' porque la respuesta a música placentera se midió en pacientes con TDM, aunque con muestras pequeñas (n = 16–19 por grupo)."
+      },
+      "diferencias": [
+        {
+          "paciente": "El 'centro del gusto' se enciende menos: la canción favorita se disfruta, pero con menos chispa.",
+          "clinico": "Menor activación de accumbens/estriado ventral y orbitofrontal medial a música favorita en TDM vs. controles [ref:osuch2009]; congruente con la hiporreactividad estriatal general a recompensa [ref:keren2018,ng2019].",
+          "refs": [
+            "osuch2009",
+            "keren2018",
+            "ng2019"
+          ]
+        },
+        {
+          "paciente": "La zona que conecta emoción y pensamiento tiende a 'escuchar' más lo triste que lo alegre.",
+          "clinico": "En la cingulada anterior rostral, los controles responden más a música positiva y los pacientes con TDM a la negativa [ref:lepping2016].",
+          "refs": [
+            "lepping2016"
+          ]
+        },
+        {
+          "paciente": "La alarma que normalmente se apaga con la música podría apagarse menos, aunque esto no se ha medido con música en personas con depresión.",
+          "clinico": "La desactivación amigdalina con música placentera se documentó en sanos [ref:blood2001]; su atenuación en TDM se infiere de la hiperreactividad amigdalina general [ref:hamilton2012], sin estudio directo con música.",
+          "refs": [
+            "blood2001",
+            "hamilton2012"
+          ]
+        }
+      ],
+      "refs": [
+        "blood2001",
+        "salimpoor2011",
+        "osuch2009",
+        "lepping2016",
+        "keren2018",
+        "ng2019",
+        "hamilton2012"
+      ]
+    },
+    {
+      "id": "sexo",
+      "categoria": "experiencias",
+      "nombre": "Actividad sexual y orgasmo",
+      "nombre_corto": "Sexo",
+      "icono": "💞",
+      "nivel_evidencia": "inferida",
+      "resumen_evidencia": "PET en hombres y mujeres sanos muestra activación del área tegmental ventral, tálamo y estriado dorsal con desactivación de amígdala y orbitofrontal lateral durante el orgasmo; no hay neuroimagen del estímulo sexual en TDM, así que la diferencia se infiere de la hiporreactividad a recompensa y de la disminución del deseo y el placer como síntoma clínico.",
+      "secuencia": [
+        {
+          "region": "somatosensorial",
+          "t_inicio_s": 0,
+          "duracion_s": 5,
+          "intensidad": 0.7,
+          "nota": "Estimulación genital: corteza somatosensorial primaria y secundaria (Georgiadis 2006)"
+        },
+        {
+          "region": "talamo",
+          "t_inicio_s": 0.5,
+          "duracion_s": 6,
+          "intensidad": 0.6,
+          "nota": "Relevo sensorial; núcleos talámicos activados durante la eyaculación (Holstege 2003)"
+        },
+        {
+          "region": "atv",
+          "t_inicio_s": 2,
+          "duracion_s": 5,
+          "intensidad": 1,
+          "nota": "Zona de transición mesodiencefálica / ATV: activación primaria en el orgasmo, comparada con el 'rush' opioide (Holstege 2003); correlaciona con excitación percibida (Georgiadis 2006)"
+        },
+        {
+          "region": "caudado",
+          "t_inicio_s": 2,
+          "duracion_s": 4,
+          "intensidad": 0.6,
+          "nota": "El caudado derecho correlaciona con la excitación sexual percibida (Georgiadis 2006)"
+        },
+        {
+          "region": "putamen",
+          "t_inicio_s": 3,
+          "duracion_s": 4,
+          "intensidad": 0.6,
+          "nota": "Putamen lateral activado en la eyaculación (Holstege 2003)"
+        },
+        {
+          "region": "accumbens",
+          "t_inicio_s": 4,
+          "duracion_s": 4,
+          "intensidad": 0.9,
+          "nota": "Plausible por continuidad del sistema mesolímbico (ATV → accumbens); la resolución del PET no lo aisló. Plausible, sin estudio directo"
+        },
+        {
+          "region": "ofc_lateral",
+          "t_inicio_s": 4,
+          "duracion_s": 5,
+          "intensidad": -0.6,
+          "nota": "Desactivación durante el orgasmo, interpretada como desinhibición conductual (Georgiadis 2006)"
+        },
+        {
+          "region": "amigdala",
+          "t_inicio_s": 4,
+          "duracion_s": 5,
+          "intensidad": -0.5,
+          "nota": "Descenso de actividad en amígdala y corteza entorrinal durante la eyaculación (Holstege 2003)"
+        }
+      ],
+      "neurotransmisores": {
+        "dopamina": {
+          "normal": 2
+        },
+        "opioides": {
+          "normal": 1.5
+        },
+        "oxitocina": {
+          "normal": 1.4
+        },
+        "noradrenalina": {
+          "normal": 1.4
+        }
+      },
+      "textos": {
+        "paciente": "Durante la actividad sexual y el orgasmo, la 'fuente de la dopamina' en el tronco del cerebro se enciende con fuerza, muy parecido a lo que ocurre con otras recompensas intensas, y las zonas de alerta y de autocontrol tienden a apagarse: por eso aparece la sensación de soltarse. En la depresión, el deseo y la capacidad de disfrutar tienden a disminuir; es uno de los síntomas más frecuentes y no significa falta de interés por la pareja. El centro del gusto tiende a responder con menos intensidad, así que el placer puede sentirse lejano, como a través de un vidrio. Esto suele mejorar cuando la depresión se trata, aunque algunos antidepresivos también pueden afectar la respuesta sexual y conviene comentarlo con el médico.",
+        "clinico": "En hombres sanos, la eyaculación (PET con H2 15O) activa primariamente la zona de transición mesodiencefálica que incluye el área tegmental ventral, además de núcleos talámicos y putamen lateral, con descenso de actividad en amígdala y corteza entorrinal [ref:holstege2003]. En mujeres, la estimulación clitoriana activa corteza somatosensorial primaria y secundaria, mientras que el orgasmo se asocia a desactivación de la orbitofrontal lateral izquierda y del lóbulo temporal, y la excitación percibida correlaciona con el mesencéfalo ventral y el caudado derecho [ref:georgiadis2006]. No existe neuroimagen del orgasmo en pacientes con TDM; el paso del accumbens en la secuencia es plausible por continuidad del sistema mesolímbico, no por medición directa. La diferencia en TDM se infiere de la respuesta estriatal atenuada a recompensa en meta-análisis [ref:keren2018,ng2019], que además reportan hiperactivación relativa de la corteza orbitofrontal [ref:ng2019], y de la disminución del interés y el placer sexual como expresión de anhedonia. El nivel se declara 'inferida' por esa extrapolación y los multiplicadores de neurotransmisores son ilustrativos (ancla ordinal sexo ≈ 2.0 para dopamina)."
+      },
+      "diferencias": [
+        {
+          "paciente": "El deseo y la chispa del placer tienden a bajar; es parte de la enfermedad, no de la relación.",
+          "clinico": "La anhedonia sexual se infiere de la hiporreactividad del estriado ventral a recompensa en TDM [ref:keren2018,ng2019]; no hay neuroimagen del orgasmo en pacientes.",
+          "refs": [
+            "keren2018",
+            "ng2019"
+          ]
+        },
+        {
+          "paciente": "La zona que 'detecta cuando algo deja de gustar' tiende a estar más activa en la depresión, lo que podría dificultar soltarse.",
+          "clinico": "En sanos la orbitofrontal lateral se desactiva durante el orgasmo [ref:georgiadis2006]; en TDM se reporta hiperactivación relativa de la orbitofrontal ante recompensa [ref:ng2019], por lo que la desinhibición podría ser incompleta (inferencia).",
+          "refs": [
+            "georgiadis2006",
+            "ng2019"
+          ]
+        },
+        {
+          "paciente": "La alarma emocional, que normalmente se apaga, podría no apagarse del todo.",
+          "clinico": "La desactivación amigdalina durante la eyaculación se observó en sanos [ref:holstege2003]; en TDM la amígdala es hiperreactiva a estímulos negativos [ref:hamilton2012]; su comportamiento durante la actividad sexual no se ha medido en pacientes.",
+          "refs": [
+            "holstege2003",
+            "hamilton2012"
+          ]
+        }
+      ],
+      "refs": [
+        "georgiadis2006",
+        "holstege2003",
+        "keren2018",
+        "ng2019",
+        "hamilton2012"
+      ]
+    },
+    {
+      "id": "enamoramiento",
+      "categoria": "experiencias",
+      "nombre": "Enamorarse (amor romántico intenso)",
+      "nombre_corto": "Enamoramiento",
+      "icono": "💘",
+      "nivel_evidencia": "inferida",
+      "resumen_evidencia": "fMRI en personas sanas enamoradas (ver la foto de la pareja) activa ATV derecha, caudado, putamen, ínsula media y cingulada anterior, y desactiva amígdala y cingulada posterior; no hay estudios equivalentes en TDM, así que la diferencia se infiere de meta-análisis de recompensa y amígdala.",
+      "secuencia": [
+        {
+          "region": "visual",
+          "t_inicio_s": 0,
+          "duracion_s": 8,
+          "intensidad": 0.7,
+          "nota": "Ver la fotografía o la cara de la pareja"
+        },
+        {
+          "region": "atv",
+          "t_inicio_s": 1,
+          "duracion_s": 5,
+          "intensidad": 0.9,
+          "nota": "ATV derecha específica para la pareja (Aron 2005)"
+        },
+        {
+          "region": "caudado",
+          "t_inicio_s": 1.5,
+          "duracion_s": 5,
+          "intensidad": 0.8,
+          "nota": "Caudado medial/posterodorsal; el anteromedial correlaciona con la intensidad de la pasión (Aron 2005; Bartels 2000)"
+        },
+        {
+          "region": "putamen",
+          "t_inicio_s": 1.5,
+          "duracion_s": 4,
+          "intensidad": 0.5,
+          "nota": "Activación bilateral (Bartels 2000)"
+        },
+        {
+          "region": "insula",
+          "t_inicio_s": 1.5,
+          "duracion_s": 4,
+          "intensidad": 0.6,
+          "nota": "Ínsula media bilateral (Bartels 2000)"
+        },
+        {
+          "region": "acc_rostral",
+          "t_inicio_s": 2,
+          "duracion_s": 4,
+          "intensidad": 0.5,
+          "nota": "Cingulada anterior (Bartels 2000)"
+        },
+        {
+          "region": "amigdala",
+          "t_inicio_s": 2,
+          "duracion_s": 5,
+          "intensidad": -0.4,
+          "nota": "Desactivación al ver a la pareja (Bartels 2000); sin medición en TDM"
+        },
+        {
+          "region": "cingulada_posterior",
+          "t_inicio_s": 2,
+          "duracion_s": 5,
+          "intensidad": -0.4,
+          "nota": "Desactivación (Bartels 2000)"
+        }
+      ],
+      "neurotransmisores": {
+        "dopamina": {
+          "normal": 1.5
+        },
+        "oxitocina": {
+          "normal": 1.3
+        },
+        "noradrenalina": {
+          "normal": 1.3
+        }
+      },
+      "textos": {
+        "paciente": "Ver a la persona de la que estás enamorado enciende la 'fuente de la dopamina' y el 'motor de la anticipación', las mismas zonas que responden a las recompensas más intensas: por eso el enamoramiento se siente como un impulso, casi como una necesidad. Al mismo tiempo, la 'alarma de las emociones' y la zona de los recuerdos personales tienden a bajar el volumen; de ahí que se pasen por alto los defectos y se viva el presente. En la depresión esta respuesta no se ha medido directamente, pero el centro de la motivación tiende a responder menos a lo que normalmente ilusiona, así que el enamoramiento puede sentirse más tenue o costar más 'engancharse'. Esto no significa que la persona quiera menos, sino que el circuito de la recompensa está trabajando a media luz.",
+        "clinico": "En personas intensamente enamoradas (1–17 meses), ver la fotografía de la pareja vs. un conocido activa el área tegmental ventral derecha y el caudado posterodorsal/medial, y el caudado anteromedial correlaciona con la intensidad de la pasión [ref:aron2005]. Un estudio independiente encontró activación bilateral de ínsula media, cingulada anterior, caudado y putamen, junto con desactivación de amígdala, cingulada posterior y corteza prefrontal derecha [ref:bartels2000]. Ambos convergen en el reclutamiento del sistema mesolímbico dopaminérgico como sustrato de una motivación dirigida a una persona específica [ref:aron2005]. No existe neuroimagen del amor romántico en TDM; la atenuación de la respuesta de ATV y estriado se infiere de la hiporreactividad a recompensa en meta-análisis de pacientes [ref:keren2018,ng2019]. La menor desactivación amigdalina es igualmente una inferencia a partir de la hiperreactividad de la amígdala en TDM [ref:hamilton2012]. Los multiplicadores de neurotransmisores son ilustrativos y no provienen de mediciones directas."
+      },
+      "diferencias": [
+        {
+          "paciente": "El 'motor' que hace que la otra persona ilusione tiende a arrancar más despacio.",
+          "clinico": "Menor respuesta de ATV/caudado, inferida de la hipoactivación estriatal a recompensa en TDM [ref:keren2018,ng2019]; sin estudio directo del amor romántico en pacientes.",
+          "refs": [
+            "keren2018",
+            "ng2019"
+          ]
+        },
+        {
+          "paciente": "La alarma que normalmente se apaga al ver a la pareja podría quedarse medio encendida.",
+          "clinico": "Desactivación amigdalina en sanos enamorados [ref:bartels2000]; en TDM la amígdala es hiperreactiva [ref:hamilton2012], por lo que se modela una desactivación menor (inferencia).",
+          "refs": [
+            "bartels2000",
+            "hamilton2012"
+          ]
+        }
+      ],
+      "refs": [
+        "bartels2000",
+        "aron2005",
+        "keren2018",
+        "ng2019",
+        "hamilton2012"
+      ]
+    },
+    {
+      "id": "afecto_social",
+      "categoria": "experiencias",
+      "nombre": "Afecto social: un abrazo, una caricia o apoyar a un ser querido",
+      "nombre_corto": "Afecto social",
+      "icono": "🤗",
+      "nivel_evidencia": "inferida",
+      "resumen_evidencia": "En sanos, la caricia lenta activa fibras C-táctiles que proyectan a la ínsula, dar apoyo a la pareja activa el estriado ventral y reduce la amígdala, y la oxitocina intranasal atenúa la amígdala; en TDM no se ha estudiado este estímulo con neuroimagen y la diferencia se infiere de meta-análisis de recompensa y amígdala.",
+      "secuencia": [
+        {
+          "region": "somatosensorial",
+          "t_inicio_s": 0,
+          "duracion_s": 6,
+          "intensidad": 0.6,
+          "nota": "Tacto discriminativo por fibras mielinizadas; plausible, sin estudio directo del abrazo"
+        },
+        {
+          "region": "insula",
+          "t_inicio_s": 0.8,
+          "duracion_s": 6,
+          "intensidad": 0.8,
+          "nota": "Caricia lenta (1–10 cm/s) codificada por fibras C-táctiles (Löken 2009), que proyectan a la ínsula (Olausson 2002)"
+        },
+        {
+          "region": "accumbens",
+          "t_inicio_s": 1.5,
+          "duracion_s": 5,
+          "intensidad": 0.7,
+          "nota": "Estriado ventral al dar apoyo a la pareja (Inagaki 2012)"
+        },
+        {
+          "region": "amigdala",
+          "t_inicio_s": 2,
+          "duracion_s": 5,
+          "intensidad": -0.5,
+          "nota": "Menor actividad amigdalina al dar apoyo (Inagaki 2012); la oxitocina reduce la amígdala (Kirsch 2005)"
+        },
+        {
+          "region": "vmpfc",
+          "t_inicio_s": 2,
+          "duracion_s": 5,
+          "intensidad": 0.5,
+          "nota": "Valor afectivo y seguridad; plausible, sin estudio directo"
+        }
+      ],
+      "neurotransmisores": {
+        "oxitocina": {
+          "normal": 1.5
+        },
+        "opioides": {
+          "normal": 1.3
+        },
+        "dopamina": {
+          "normal": 1.3
+        },
+        "cortisol": {
+          "normal": 0.8
+        }
+      },
+      "textos": {
+        "paciente": "Una caricia lenta o un abrazo de alguien querido viaja por unas fibras especiales de la piel que están hechas para el contacto afectuoso y llega a la 'zona que siente el cuerpo', donde se registra como algo agradable. Dar apoyo a quien queremos también enciende el 'centro del gusto y la motivación' y baja el volumen de la 'alarma de las emociones'; la oxitocina, la hormona del vínculo, ayuda a calmar esa alarma. En la depresión, el centro del gusto tiende a responder menos y la alarma tiende a estar más activa, así que el abrazo puede sentirse menos reconfortante de lo esperado, aunque sigue haciendo bien. Esto no se ha medido directamente en personas con depresión, pero es lo que sugieren los estudios sobre cómo responde su cerebro a las recompensas.",
+        "clinico": "Las aferentes C-táctiles responden máximamente a caricias de 1–10 cm/s, las velocidades percibidas como más placenteras, y constituyen una vía periférica privilegiada para el tacto afiliativo [ref:loken2009]; esta vía C-táctil proyecta a la corteza insular y no a la somatosensorial primaria [ref:olausson2002]. Dar apoyo (sostener el brazo de la pareja mientras recibe descargas) activa el estriado ventral y el área septal, y la actividad septal se asocia inversamente con la de la amígdala bilateral [ref:inagaki2012]. Tomar la mano del cónyuge atenúa la respuesta neural a la amenaza en ínsula anterior derecha, giro frontal superior e hipotálamo, en proporción a la calidad marital [ref:coan2006]. La oxitocina intranasal reduce la activación amigdalina ante estímulos de miedo y su acoplamiento con el tronco encefálico [ref:kirsch2005], lo que ofrece un mecanismo plausible para el efecto calmante del contacto afectivo, aunque la liberación endógena de oxitocina durante un abrazo no se midió en estos estudios. No hay neuroimagen de este estímulo en TDM: la menor respuesta estriatal se infiere de meta-análisis de recompensa [ref:keren2018,ng2019] y la menor supresión amigdalina, de la hiperreactividad de la amígdala en TDM [ref:hamilton2012]."
+      },
+      "diferencias": [
+        {
+          "paciente": "El consuelo de un abrazo tiende a 'entrar' menos: se agradece, pero calma menos.",
+          "clinico": "Menor respuesta del estriado ventral al contacto y al apoyo afectivo, inferida de la hiporreactividad a recompensa en TDM [ref:keren2018,ng2019]; el estímulo no se ha estudiado directamente en pacientes.",
+          "refs": [
+            "keren2018",
+            "ng2019"
+          ]
+        },
+        {
+          "paciente": "La alarma emocional tarda más en bajar, aun con la compañía de alguien querido.",
+          "clinico": "La reducción amigdalina asociada a dar apoyo [ref:inagaki2012] y a la oxitocina [ref:kirsch2005] se documentó en sanos; en TDM la amígdala es hiperreactiva [ref:hamilton2012], por lo que se modela una atenuación menor (inferencia).",
+          "refs": [
+            "inagaki2012",
+            "kirsch2005",
+            "hamilton2012"
+          ]
+        },
+        {
+          "paciente": "Aun así, el contacto afectivo sigue siendo una de las cosas que más ayudan; el efecto está reducido, no anulado.",
+          "clinico": "El efecto regulador del contacto social depende de la calidad del vínculo [ref:coan2006]; no hay evidencia de que esté abolido en TDM, solo se infiere atenuación.",
+          "refs": [
+            "coan2006"
+          ]
+        }
+      ],
+      "refs": [
+        "loken2009",
+        "olausson2002",
+        "inagaki2012",
+        "coan2006",
+        "kirsch2005",
+        "keren2018",
+        "ng2019",
+        "hamilton2012"
+      ]
+    },
+    {
+      "id": "ejercicio",
+      "categoria": "experiencias",
+      "nombre": "Hacer ejercicio aeróbico (p. ej., correr 30 minutos)",
+      "nombre_corto": "Ejercicio",
+      "icono": "🏃",
+      "nivel_evidencia": "directa",
+      "resumen_evidencia": "El efecto antidepresivo del ejercicio y la mejoría aguda del ánimo están medidos en pacientes con TDM (RCT y meta-análisis); la neuroimagen de la 'euforia del corredor' (opioides endógenos en prefrontal y límbico) y el aumento agudo de BDNF solo se han medido en sanos, así que la secuencia cerebral en TDM es inferida.",
+      "secuencia": [
+        {
+          "region": "motora",
+          "t_inicio_s": 0,
+          "duracion_s": 10,
+          "intensidad": 0.8,
+          "nota": "Comando motor sostenido"
+        },
+        {
+          "region": "somatosensorial",
+          "t_inicio_s": 0.5,
+          "duracion_s": 9,
+          "intensidad": 0.5,
+          "nota": "Propiocepción; plausible, sin estudio directo"
+        },
+        {
+          "region": "insula",
+          "t_inicio_s": 1,
+          "duracion_s": 8,
+          "intensidad": 0.6,
+          "nota": "Interocepción (latido, respiración); liberación opioide correlacionada con euforia (Boecker 2008)"
+        },
+        {
+          "region": "acc_rostral",
+          "t_inicio_s": 2,
+          "duracion_s": 7,
+          "intensidad": 0.6,
+          "nota": "Liberación de opioides endógenos en cingulada anterior (Boecker 2008)"
+        },
+        {
+          "region": "vmpfc",
+          "t_inicio_s": 2.5,
+          "duracion_s": 7,
+          "intensidad": 0.6,
+          "nota": "Prefrontal/orbitofrontal: liberación opioide inversamente correlacionada con la euforia (Boecker 2008)"
+        },
+        {
+          "region": "accumbens",
+          "t_inicio_s": 3,
+          "duracion_s": 6,
+          "intensidad": 0.6,
+          "nota": "Recompensa/euforia; plausible, sin estudio directo (Boecker 2008 no reporta estriado ventral)"
+        },
+        {
+          "region": "hipocampo",
+          "t_inicio_s": 4,
+          "duracion_s": 6,
+          "intensidad": 0.4,
+          "nota": "BDNF periférico agudo (Szuhany 2015); el efecto hipocampal agudo es plausible, sin estudio directo en humanos"
+        }
+      ],
+      "neurotransmisores": {
+        "opioides": {
+          "normal": 1.5
+        },
+        "bdnf": {
+          "normal": 1.4
+        },
+        "noradrenalina": {
+          "normal": 1.5
+        },
+        "dopamina": {
+          "normal": 1.3
+        },
+        "cortisol": {
+          "normal": 1.3
+        }
+      },
+      "textos": {
+        "paciente": "Al correr un rato, el cerebro libera sus propios analgésicos, las endorfinas, sobre todo en las zonas frontales y emocionales; a eso se le llama la 'euforia del corredor'. También sube una proteína que funciona como fertilizante para las neuronas (el BDNF) y aparece una sensación de vigor y bienestar. En personas con depresión, una sola sesión de 30 minutos tiende a aumentar la energía y el bienestar más que quedarse en reposo, y hacer ejercicio de forma regular tiende a reducir los síntomas de manera importante. Lo que aún no se ha medido con imagen cerebral es cómo responde el cerebro deprimido durante el ejercicio; lo que sabemos viene de lo que las personas reportan sentir.",
+        "clinico": "Tras 2 h de carrera de resistencia, la PET con [18F]FDPN muestra reducción de la disponibilidad de receptores opioides (liberación endógena) en corteza prefrontal/orbitofrontal, cingulada anterior, ínsula bilateral y regiones temporoparietales, con correlación inversa entre la unión del ligando y la euforia percibida [ref:boecker2008]. Una sesión única de ejercicio eleva el BDNF periférico con tamaño de efecto moderado (g de Hedges = 0.46), mayor en quienes entrenan regularmente [ref:szuhany2015]; su traducción a plasticidad hipocampal aguda en humanos es una inferencia. En pacientes con TDM, 30 min de ejercicio aeróbico moderado (60–70 % de la frecuencia cardiaca máxima) aumentaron el bienestar positivo y el vigor frente a reposo, mientras que la reducción del malestar fue similar en ambos brazos [ref:bartholomew2005]. Como tratamiento, el ejercicio tiene un efecto antidepresivo grande en meta-análisis que ajustan por sesgo de publicación [ref:schuch2016]. La evidencia en TDM es clínica y conductual: no hay PET opioide ni fMRI durante ejercicio agudo en pacientes, por lo que la respuesta cerebral en TDM se representa con los multiplicadores generales del modelo y los valores de neurotransmisores son ilustrativos."
+      },
+      "diferencias": [
+        {
+          "paciente": "La 'euforia del corredor' probablemente llega, pero puede sentirse más suave; aun así, el vigor y el bienestar suben más que si te quedas en reposo.",
+          "clinico": "Aumento agudo de vigor y bienestar positivo tras 30 min de ejercicio en pacientes con TDM [ref:bartholomew2005]; la respuesta opioidérgica cerebral se documentó en atletas sanos [ref:boecker2008] y no se ha medido en TDM.",
+          "refs": [
+            "bartholomew2005",
+            "boecker2008"
+          ]
+        },
+        {
+          "paciente": "El 'fertilizante' de las neuronas suele estar bajo en la depresión; cada sesión de ejercicio lo empuja hacia arriba.",
+          "clinico": "El ejercicio agudo eleva el BDNF periférico con efecto moderado en meta-análisis [ref:szuhany2015]; la magnitud específica de esa respuesta aguda en pacientes con TDM no está bien caracterizada.",
+          "refs": [
+            "szuhany2015"
+          ]
+        },
+        {
+          "paciente": "Con el tiempo, repetir el ejercicio es uno de los tratamientos con más respaldo para bajar los síntomas.",
+          "clinico": "Efecto antidepresivo del ejercicio como tratamiento en TDM, robusto tras ajustar por sesgo de publicación [ref:schuch2016].",
+          "refs": [
+            "schuch2016"
+          ]
+        }
+      ],
+      "refs": [
+        "boecker2008",
+        "szuhany2015",
+        "bartholomew2005",
+        "schuch2016"
+      ]
+    },
+    {
+      "id": "paracaidismo",
+      "categoria": "experiencias",
+      "nombre": "Deporte extremo: salto en paracaídas (adrenalina)",
+      "nombre_corto": "Paracaidismo",
+      "icono": "🪂",
+      "nivel_evidencia": "indirecta",
+      "resumen_evidencia": "Solo hay medidas fisiológicas (cortisol salival y ansiedad en paracaidistas novatos y expertos); no existe neuroimagen del salto ni estudios en TDM, así que la secuencia se modela con la fisiología del estrés agudo (locus coeruleus, amígdala, eje HPA) y con estudios de alivio y novedad como recompensa en sanos.",
+      "secuencia": [
+        {
+          "region": "locus_coeruleus",
+          "t_inicio_s": 0,
+          "duracion_s": 6,
+          "intensidad": 1,
+          "nota": "Alerta noradrenérgica ante la amenaza (Sara 2009); sin neuroimagen en paracaidismo"
+        },
+        {
+          "region": "amigdala",
+          "t_inicio_s": 0.3,
+          "duracion_s": 6,
+          "intensidad": 1,
+          "nota": "Detección de amenaza; plausible, sin estudio directo"
+        },
+        {
+          "region": "hipotalamo",
+          "t_inicio_s": 0.8,
+          "duracion_s": 7,
+          "intensidad": 0.9,
+          "nota": "Eje HPA: cortisol salival elevado inmediatamente tras el salto (Hare 2013)"
+        },
+        {
+          "region": "insula",
+          "t_inicio_s": 1,
+          "duracion_s": 8,
+          "intensidad": 0.8,
+          "nota": "Interocepción: taquicardia, vértigo; plausible, sin estudio directo"
+        },
+        {
+          "region": "acc_dorsal",
+          "t_inicio_s": 1,
+          "duracion_s": 5,
+          "intensidad": 0.6,
+          "nota": "Saliencia y conflicto (saltar o no); plausible, sin estudio directo"
+        },
+        {
+          "region": "atv",
+          "t_inicio_s": 6,
+          "duracion_s": 5,
+          "intensidad": 0.7,
+          "nota": "La novedad absoluta activa SN/ATV (Bunzeck 2006); extrapolado"
+        },
+        {
+          "region": "accumbens",
+          "t_inicio_s": 7,
+          "duracion_s": 5,
+          "intensidad": 0.9,
+          "nota": "Alivio al aterrizar como recompensa (Leknes 2011); extrapolado"
+        },
+        {
+          "region": "vmpfc",
+          "t_inicio_s": 7,
+          "duracion_s": 5,
+          "intensidad": 0.5,
+          "nota": "Alivio y recompensa apetitiva convergen en prefrontal ventromedial (Leknes 2011); extrapolado"
+        }
+      ],
+      "neurotransmisores": {
+        "noradrenalina": {
+          "normal": 2
+        },
+        "cortisol": {
+          "normal": 1.8
+        },
+        "dopamina": {
+          "normal": 1.4
+        }
+      },
+      "textos": {
+        "paciente": "Antes de saltar, el cuerpo entra en modo alarma: la 'fuente de la noradrenalina' en el tronco del cerebro dispara la alerta, la 'alarma de las emociones' se enciende y el 'control del estrés' libera cortisol; el corazón galopa y la 'zona que siente el cuerpo' lo registra todo. Cuando el paracaídas abre y aterrizas a salvo, el alivio funciona como una recompensa: el 'centro del gusto' recibe dopamina y llega la euforia. En la depresión no se ha estudiado el paracaidismo, pero sabemos que el cortisol tiende a tardar más en bajar después de un estrés y que el centro del gusto tiende a responder menos, así que la 'bajada' de adrenalina puede durar más y la euforia sentirse más corta. Todo esto es una extrapolación razonable, no una medición directa.",
+        "clinico": "El salto en paracaídas eleva significativamente el cortisol salival inmediatamente después del salto tanto en novatos como en expertos (≥30 saltos), sin habituación de la reactividad de cortisol pese a menor ansiedad subjetiva en los expertos [ref:hare2013]. No hay neuroimagen del salto; la activación del locus coeruleus y la liberación de noradrenalina se modelan a partir de su papel en la alerta y la respuesta al estrés y la novedad [ref:sara2009], y la de amígdala e hipotálamo, por la fisiología del eje HPA (plausible, sin estudio directo). La fase de euforia se extrapola de dos hallazgos en sanos: el alivio ante la seguridad activa el núcleo accumbens y converge con la recompensa apetitiva en la corteza prefrontal ventromedial [ref:leknes2011], y la novedad absoluta activa la sustancia negra/ATV dopaminérgica [ref:bunzeck2006]. En TDM, el meta-análisis de respuestas de cortisol a estresores psicológicos muestra niveles basales y de estrés similares a controles pero recuperación más lenta y, en estudios vespertinos o con pacientes más graves, reactividad embotada [ref:burke2005], sobre un eje HPA basalmente hiperactivo [ref:stetler2011]. La hiperreactividad amigdalina [ref:hamilton2012] y la hiporreactividad estriatal a recompensa [ref:keren2018] predicen una alarma más intensa y una euforia de alivio más breve, pero ninguna de estas predicciones se ha probado en deportes extremos; por eso el nivel es 'indirecta' y no se definen modificadores específicos de TDM."
+      },
+      "diferencias": [
+        {
+          "paciente": "La 'bajada' después del susto tiende a durar más: el cortisol tarda más en volver a la normalidad.",
+          "clinico": "Recuperación de cortisol más lenta tras estrés psicológico en TDM [ref:burke2005], sobre un eje HPA basalmente activado [ref:stetler2011]; extrapolado a estresores naturalistas como el salto.",
+          "refs": [
+            "burke2005",
+            "stetler2011"
+          ]
+        },
+        {
+          "paciente": "La alarma emocional tiende a sonar más fuerte ante la amenaza.",
+          "clinico": "Hiperreactividad amigdalina a estímulos negativos en TDM [ref:hamilton2012]; sin medición durante el paracaidismo (indirecta).",
+          "refs": [
+            "hamilton2012"
+          ]
+        },
+        {
+          "paciente": "La euforia del alivio al aterrizar puede sentirse más corta o menos intensa.",
+          "clinico": "El alivio como recompensa depende del accumbens en sanos [ref:leknes2011]; su atenuación en TDM se infiere de la hiporreactividad estriatal a recompensa [ref:keren2018], sin estudio directo.",
+          "refs": [
+            "leknes2011",
+            "keren2018"
+          ]
+        },
+        {
+          "paciente": "En algunas personas con depresión grave el cuerpo reacciona menos al estrés, no más; la respuesta es variable.",
+          "clinico": "Patrón de reactividad de cortisol embotada con recuperación deficiente, más marcado en pacientes mayores y más graves [ref:burke2005].",
+          "refs": [
+            "burke2005"
+          ]
+        }
+      ],
+      "refs": [
+        "hare2013",
+        "sara2009",
+        "leknes2011",
+        "bunzeck2006",
+        "burke2005",
+        "stetler2011",
+        "hamilton2012",
+        "keren2018"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2161 @@
+{
+ "fuente": {
+  "nombre": "Brain for Blender",
+  "autor": "Anderson M. Winkler",
+  "licencia": "CC BY-SA 3.0",
+  "url": "https://brainder.org/research/brain-for-blender/",
+  "atlas": "Desikan-Killiany (corteza pial) + aseg (subcorticales)"
+ },
+ "unidades": "mm, espacio RAS de FreeSurfer (no MNI)",
+ "parametros": {
+  "ratio_corteza": 0.22,
+  "ratio_subcortical": 0.4,
+  "error": 0.01,
+  "cuantizado": true,
+  "meshopt": false
+ },
+ "bbox_global": {
+  "min": [
+   -69.7,
+   -99.89,
+   -63.84
+  ],
+  "max": [
+   68.92,
+   70.16,
+   60.28
+  ]
+ },
+ "centro_global": [
+  -0.56,
+  -12.15,
+  -7.28
+ ],
+ "mallas": {
+  "lh_pial_DK_bankssts": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -53.56,
+    -41.65,
+    -2.35
+   ],
+   "bbox": {
+    "min": [
+     -68.42,
+     -57.41,
+     -16.08
+    ],
+    "max": [
+     -40.84,
+     -29.63,
+     9.07
+    ]
+   },
+   "triangulos": {
+    "original": 4628,
+    "final": 1402
+   }
+  },
+  "lh_pial_DK_caudalanteriorcingulate": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -5.82,
+    21.21,
+    2.74
+   ],
+   "bbox": {
+    "min": [
+     -10.77,
+     4.43,
+     -12.89
+    ],
+    "max": [
+     -0.02,
+     34.01,
+     16.32
+    ]
+   },
+   "triangulos": {
+    "original": 1968,
+    "final": 738
+   }
+  },
+  "lh_pial_DK_caudalmiddlefrontal": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -32.39,
+    16.53,
+    24.8
+   ],
+   "bbox": {
+    "min": [
+     -51.96,
+     -3.03,
+     4.87
+    ],
+    "max": [
+     -17.79,
+     36.21,
+     46.81
+    ]
+   },
+   "triangulos": {
+    "original": 8876,
+    "final": 1952
+   }
+  },
+  "lh_pial_DK_cuneus": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -8.4,
+    -75.29,
+    10.83
+   ],
+   "bbox": {
+    "min": [
+     -19.15,
+     -96,
+     -2.65
+    ],
+    "max": [
+     1.42,
+     -53.01,
+     24.41
+    ]
+   },
+   "triangulos": {
+    "original": 5115,
+    "final": 1323
+   }
+  },
+  "lh_pial_DK_entorhinal": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -25.91,
+    -10.03,
+    -41.32
+   ],
+   "bbox": {
+    "min": [
+     -35.64,
+     -23.94,
+     -55.12
+    ],
+    "max": [
+     -14.79,
+     3.08,
+     -29.87
+    ]
+   },
+   "triangulos": {
+    "original": 1717,
+    "final": 961
+   }
+  },
+  "lh_pial_DK_frontalpole": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -8.18,
+    60.18,
+    -31.23
+   ],
+   "bbox": {
+    "min": [
+     -16.9,
+     53.46,
+     -39.9
+    ],
+    "max": [
+     -0.28,
+     66.3,
+     -22.57
+    ]
+   },
+   "triangulos": {
+    "original": 813,
+    "final": 449
+   }
+  },
+  "lh_pial_DK_fusiform": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -35.69,
+    -42.81,
+    -27.57
+   ],
+   "bbox": {
+    "min": [
+     -50.13,
+     -79.3,
+     -56.47
+    ],
+    "max": [
+     -18.85,
+     0.89,
+     -9.71
+    ]
+   },
+   "triangulos": {
+    "original": 10880,
+    "final": 2388
+   }
+  },
+  "lh_pial_DK_inferiorparietal": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -35.68,
+    -60.67,
+    21.37
+   ],
+   "bbox": {
+    "min": [
+     -57.9,
+     -86.52,
+     0.09
+    ],
+    "max": [
+     -14.52,
+     -38.35,
+     45.57
+    ]
+   },
+   "triangulos": {
+    "original": 16555,
+    "final": 3641
+   }
+  },
+  "lh_pial_DK_inferiortemporal": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -50.52,
+    -38.58,
+    -27.54
+   ],
+   "bbox": {
+    "min": [
+     -66.79,
+     -73.93,
+     -55.54
+    ],
+    "max": [
+     -31.66,
+     5.34,
+     0.59
+    ]
+   },
+   "triangulos": {
+    "original": 11793,
+    "final": 2593
+   }
+  },
+  "lh_pial_DK_insula": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -37.19,
+    -2.27,
+    -12.17
+   ],
+   "bbox": {
+    "min": [
+     -47.63,
+     -27.01,
+     -36.05
+    ],
+    "max": [
+     -21.37,
+     24.68,
+     8.3
+    ]
+   },
+   "triangulos": {
+    "original": 7579,
+    "final": 1667
+   }
+  },
+  "lh_pial_DK_isthmuscingulate": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -5.98,
+    -39.29,
+    7.56
+   ],
+   "bbox": {
+    "min": [
+     -14.83,
+     -52.46,
+     -14.49
+    ],
+    "max": [
+     0.15,
+     -17.66,
+     26.27
+    ]
+   },
+   "triangulos": {
+    "original": 3850,
+    "final": 1306
+   }
+  },
+  "lh_pial_DK_lateraloccipital": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -30.22,
+    -82.76,
+    -6.04
+   ],
+   "bbox": {
+    "min": [
+     -59.55,
+     -99.89,
+     -23.97
+    ],
+    "max": [
+     -0.68,
+     -61.5,
+     19.28
+    ]
+   },
+   "triangulos": {
+    "original": 15099,
+    "final": 3321
+   }
+  },
+  "lh_pial_DK_lateralorbitofrontal": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -24.42,
+    28.53,
+    -31.95
+   ],
+   "bbox": {
+    "min": [
+     -48.66,
+     0.65,
+     -47.88
+    ],
+    "max": [
+     -3.88,
+     60.19,
+     -10.8
+    ]
+   },
+   "triangulos": {
+    "original": 10975,
+    "final": 2413
+   }
+  },
+  "lh_pial_DK_lingual": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -11.83,
+    -69.83,
+    -8.66
+   ],
+   "bbox": {
+    "min": [
+     -31.61,
+     -98.63,
+     -21.41
+    ],
+    "max": [
+     2.78,
+     -43.18,
+     7.67
+    ]
+   },
+   "triangulos": {
+    "original": 10343,
+    "final": 2275
+   }
+  },
+  "lh_pial_DK_medialorbitofrontal": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -9.42,
+    25.25,
+    -31.18
+   ],
+   "bbox": {
+    "min": [
+     -35.15,
+     -6.99,
+     -45.29
+    ],
+    "max": [
+     0,
+     61.45,
+     -19.58
+    ]
+   },
+   "triangulos": {
+    "original": 6749,
+    "final": 1599
+   }
+  },
+  "lh_pial_DK_middletemporal": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -54.73,
+    -31.86,
+    -19.55
+   ],
+   "bbox": {
+    "min": [
+     -69.33,
+     -74.95,
+     -51.75
+    ],
+    "max": [
+     -38.03,
+     7.77,
+     14.9
+    ]
+   },
+   "triangulos": {
+    "original": 11813,
+    "final": 2597
+   }
+  },
+  "lh_pial_DK_paracentral": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -8.44,
+    -19.96,
+    39.21
+   ],
+   "bbox": {
+    "min": [
+     -17.6,
+     -33.64,
+     20.21
+    ],
+    "max": [
+     0.68,
+     -3.11,
+     59.21
+    ]
+   },
+   "triangulos": {
+    "original": 5648,
+    "final": 1288
+   }
+  },
+  "lh_pial_DK_parahippocampal": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -25.29,
+    -33.6,
+    -25.51
+   ],
+   "bbox": {
+    "min": [
+     -36.46,
+     -50.98,
+     -43.99
+    ],
+    "max": [
+     -10.02,
+     -14.63,
+     -7.07
+    ]
+   },
+   "triangulos": {
+    "original": 3545,
+    "final": 1125
+   }
+  },
+  "lh_pial_DK_parsopercularis": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -44.42,
+    20.94,
+    -1.84
+   ],
+   "bbox": {
+    "min": [
+     -59.23,
+     3.31,
+     -21.81
+    ],
+    "max": [
+     -31.64,
+     39.47,
+     11.5
+    ]
+   },
+   "triangulos": {
+    "original": 5518,
+    "final": 1522
+   }
+  },
+  "lh_pial_DK_parsorbitalis": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -44.82,
+    31.58,
+    -28.84
+   ],
+   "bbox": {
+    "min": [
+     -56.03,
+     14.88,
+     -36.33
+    ],
+    "max": [
+     -30.78,
+     44.7,
+     -19.03
+    ]
+   },
+   "triangulos": {
+    "original": 2084,
+    "final": 778
+   }
+  },
+  "lh_pial_DK_parstriangularis": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -46.57,
+    27.24,
+    -12.69
+   ],
+   "bbox": {
+    "min": [
+     -60.28,
+     17.38,
+     -29.81
+    ],
+    "max": [
+     -31.83,
+     38.17,
+     2.47
+    ]
+   },
+   "triangulos": {
+    "original": 4358,
+    "final": 1208
+   }
+  },
+  "lh_pial_DK_pericalcarine": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -9.65,
+    -76.49,
+    0.47
+   ],
+   "bbox": {
+    "min": [
+     -17.32,
+     -95.07,
+     -11.57
+    ],
+    "max": [
+     1.05,
+     -50.47,
+     9.76
+    ]
+   },
+   "triangulos": {
+    "original": 4455,
+    "final": 1189
+   }
+  },
+  "lh_pial_DK_postcentral": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -42.52,
+    -14.45,
+    24.87
+   ],
+   "bbox": {
+    "min": [
+     -67.65,
+     -31.92,
+     -15.1
+    ],
+    "max": [
+     -5.04,
+     7.33,
+     60.28
+    ]
+   },
+   "triangulos": {
+    "original": 14572,
+    "final": 3204
+   }
+  },
+  "lh_pial_DK_posteriorcingulate": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -6.49,
+    -14.69,
+    20.49
+   ],
+   "bbox": {
+    "min": [
+     -17.16,
+     -34.04,
+     8.16
+    ],
+    "max": [
+     1.29,
+     9.31,
+     32.03
+    ]
+   },
+   "triangulos": {
+    "original": 3955,
+    "final": 1075
+   }
+  },
+  "lh_pial_DK_precentral": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -38.92,
+    0.01,
+    21.78
+   ],
+   "bbox": {
+    "min": [
+     -64.98,
+     -28.08,
+     -22.09
+    ],
+    "max": [
+     -1.6,
+     20.89,
+     59.29
+    ]
+   },
+   "triangulos": {
+    "original": 19006,
+    "final": 4180
+   }
+  },
+  "lh_pial_DK_precuneus": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -8.11,
+    -49.85,
+    24.55
+   ],
+   "bbox": {
+    "min": [
+     -20.09,
+     -74.54,
+     -2.19
+    ],
+    "max": [
+     0.72,
+     -23.03,
+     56.84
+    ]
+   },
+   "triangulos": {
+    "original": 12582,
+    "final": 2766
+   }
+  },
+  "lh_pial_DK_rostralanteriorcingulate": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -4.55,
+    29.59,
+    -19.94
+   ],
+   "bbox": {
+    "min": [
+     -12.57,
+     8.76,
+     -30.45
+    ],
+    "max": [
+     0.99,
+     47.81,
+     -5.78
+    ]
+   },
+   "triangulos": {
+    "original": 3073,
+    "final": 975
+   }
+  },
+  "lh_pial_DK_rostralmiddlefrontal": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -31.12,
+    46.69,
+    -8.23
+   ],
+   "bbox": {
+    "min": [
+     -52.97,
+     22.62,
+     -38.56
+    ],
+    "max": [
+     -13.04,
+     65.66,
+     24.37
+    ]
+   },
+   "triangulos": {
+    "original": 18461,
+    "final": 4061
+   }
+  },
+  "lh_pial_DK_superiorfrontal": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -9.67,
+    30.31,
+    16.77
+   ],
+   "bbox": {
+    "min": [
+     -27.74,
+     -10.34,
+     -28.31
+    ],
+    "max": [
+     2.08,
+     69.48,
+     53.77
+    ]
+   },
+   "triangulos": {
+    "original": 25822,
+    "final": 5680
+   }
+  },
+  "lh_pial_DK_superiorparietal": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -19.62,
+    -54.06,
+    32.76
+   ],
+   "bbox": {
+    "min": [
+     -36.73,
+     -88.92,
+     2.01
+    ],
+    "max": [
+     -0.63,
+     -24.99,
+     58.49
+    ]
+   },
+   "triangulos": {
+    "original": 16942,
+    "final": 3726
+   }
+  },
+  "lh_pial_DK_superiortemporal": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -52.56,
+    -15.3,
+    -14.65
+   ],
+   "bbox": {
+    "min": [
+     -69.7,
+     -50.9,
+     -47.38
+    ],
+    "max": [
+     -34,
+     18.41,
+     15.51
+    ]
+   },
+   "triangulos": {
+    "original": 12810,
+    "final": 2818
+   }
+  },
+  "lh_pial_DK_supramarginal": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -48.27,
+    -32.25,
+    20.48
+   ],
+   "bbox": {
+    "min": [
+     -67.31,
+     -53.96,
+     -0.25
+    ],
+    "max": [
+     -28.38,
+     -10.87,
+     45.44
+    ]
+   },
+   "triangulos": {
+    "original": 14522,
+    "final": 3194
+   }
+  },
+  "lh_pial_DK_temporalpole": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -33.25,
+    5.25,
+    -45.33
+   ],
+   "bbox": {
+    "min": [
+     -46.27,
+     -2.27,
+     -55.76
+    ],
+    "max": [
+     -20.58,
+     17.74,
+     -33.33
+    ]
+   },
+   "triangulos": {
+    "original": 1646,
+    "final": 724
+   }
+  },
+  "lh_pial_DK_transversetemporal": {
+   "grupo": "corteza",
+   "hemisferio": "izq",
+   "centroide": [
+    -41.63,
+    -19.87,
+    -3.88
+   ],
+   "bbox": {
+    "min": [
+     -50.77,
+     -29.32,
+     -13.36
+    ],
+    "max": [
+     -33.48,
+     -7.25,
+     5.82
+    ]
+   },
+   "triangulos": {
+    "original": 1604,
+    "final": 694
+   }
+  },
+  "rh_pial_DK_bankssts": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    48.95,
+    -35.02,
+    -1.29
+   ],
+   "bbox": {
+    "min": [
+     40.52,
+     -42.97,
+     -12.45
+    ],
+    "max": [
+     62.42,
+     -26.72,
+     10.57
+    ]
+   },
+   "triangulos": {
+    "original": 3334,
+    "final": 1160
+   }
+  },
+  "rh_pial_DK_caudalanteriorcingulate": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    4.42,
+    23.64,
+    2.16
+   ],
+   "bbox": {
+    "min": [
+     -0.75,
+     4.03,
+     -15.57
+    ],
+    "max": [
+     11.55,
+     43.75,
+     19.11
+    ]
+   },
+   "triangulos": {
+    "original": 3272,
+    "final": 1034
+   }
+  },
+  "rh_pial_DK_caudalmiddlefrontal": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    33.78,
+    18.39,
+    24.42
+   ],
+   "bbox": {
+    "min": [
+     17.54,
+     0.39,
+     6.21
+    ],
+    "max": [
+     50.26,
+     37.95,
+     43.7
+    ]
+   },
+   "triangulos": {
+    "original": 8008,
+    "final": 1760
+   }
+  },
+  "rh_pial_DK_cuneus": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    8.78,
+    -77.33,
+    10.99
+   ],
+   "bbox": {
+    "min": [
+     -0.81,
+     -95.75,
+     -1.66
+    ],
+    "max": [
+     18.3,
+     -50.29,
+     24.92
+    ]
+   },
+   "triangulos": {
+    "original": 5098,
+    "final": 1258
+   }
+  },
+  "rh_pial_DK_entorhinal": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    21.67,
+    -14.84,
+    -41.8
+   ],
+   "bbox": {
+    "min": [
+     13.33,
+     -27.93,
+     -54.8
+    ],
+    "max": [
+     27.93,
+     -0.02,
+     -30.61
+    ]
+   },
+   "triangulos": {
+    "original": 1197,
+    "final": 621
+   }
+  },
+  "rh_pial_DK_frontalpole": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    5.76,
+    60.29,
+    -34.44
+   ],
+   "bbox": {
+    "min": [
+     -1.37,
+     54.31,
+     -43.96
+    ],
+    "max": [
+     12.36,
+     65.76,
+     -25.13
+    ]
+   },
+   "triangulos": {
+    "original": 796,
+    "final": 442
+   }
+  },
+  "rh_pial_DK_fusiform": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    31.1,
+    -43.27,
+    -27.01
+   ],
+   "bbox": {
+    "min": [
+     12.55,
+     -72.85,
+     -58.92
+    ],
+    "max": [
+     44.39,
+     -1.93,
+     -4.18
+    ]
+   },
+   "triangulos": {
+    "original": 10748,
+    "final": 2364
+   }
+  },
+  "rh_pial_DK_inferiorparietal": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    38.36,
+    -52.31,
+    21.3
+   ],
+   "bbox": {
+    "min": [
+     18.3,
+     -80.43,
+     -2.27
+    ],
+    "max": [
+     59.6,
+     -28.57,
+     47.64
+    ]
+   },
+   "triangulos": {
+    "original": 20438,
+    "final": 4496
+   }
+  },
+  "rh_pial_DK_inferiortemporal": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    47.48,
+    -34.14,
+    -32.3
+   ],
+   "bbox": {
+    "min": [
+     24.7,
+     -65.11,
+     -58.68
+    ],
+    "max": [
+     65.68,
+     2.02,
+     -6.95
+    ]
+   },
+   "triangulos": {
+    "original": 11889,
+    "final": 2615
+   }
+  },
+  "rh_pial_DK_insula": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    35.27,
+    1.29,
+    -15.28
+   ],
+   "bbox": {
+    "min": [
+     21.57,
+     -21.54,
+     -37.21
+    ],
+    "max": [
+     46.31,
+     27.7,
+     6.25
+    ]
+   },
+   "triangulos": {
+    "original": 7115,
+    "final": 1573
+   }
+  },
+  "rh_pial_DK_isthmuscingulate": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    5.87,
+    -36.23,
+    5.87
+   ],
+   "bbox": {
+    "min": [
+     -0.84,
+     -51.03,
+     -12.98
+    ],
+    "max": [
+     16.17,
+     -19.87,
+     22.15
+    ]
+   },
+   "triangulos": {
+    "original": 3452,
+    "final": 1246
+   }
+  },
+  "rh_pial_DK_lateraloccipital": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    30.97,
+    -75.72,
+    -5.6
+   ],
+   "bbox": {
+    "min": [
+     8.54,
+     -96.69,
+     -23.89
+    ],
+    "max": [
+     54.25,
+     -51.54,
+     16.37
+    ]
+   },
+   "triangulos": {
+    "original": 13758,
+    "final": 3026
+   }
+  },
+  "rh_pial_DK_lateralorbitofrontal": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    22.97,
+    25.75,
+    -33.77
+   ],
+   "bbox": {
+    "min": [
+     3.02,
+     -3.87,
+     -47.66
+    ],
+    "max": [
+     50.54,
+     59.06,
+     -13.91
+    ]
+   },
+   "triangulos": {
+    "original": 10619,
+    "final": 2335
+   }
+  },
+  "rh_pial_DK_lingual": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    9.78,
+    -64.32,
+    -6.23
+   ],
+   "bbox": {
+    "min": [
+     -2.32,
+     -92.48,
+     -19.2
+    ],
+    "max": [
+     29.1,
+     -39.69,
+     10.68
+    ]
+   },
+   "triangulos": {
+    "original": 9564,
+    "final": 2104
+   }
+  },
+  "rh_pial_DK_medialorbitofrontal": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    4.74,
+    28.26,
+    -29.6
+   ],
+   "bbox": {
+    "min": [
+     -3.11,
+     -3.98,
+     -46.8
+    ],
+    "max": [
+     15.41,
+     59.85,
+     -15.66
+    ]
+   },
+   "triangulos": {
+    "original": 7364,
+    "final": 1724
+   }
+  },
+  "rh_pial_DK_middletemporal": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    54.09,
+    -27.71,
+    -21.92
+   ],
+   "bbox": {
+    "min": [
+     34.7,
+     -65.68,
+     -54.69
+    ],
+    "max": [
+     68.92,
+     10.65,
+     12.97
+    ]
+   },
+   "triangulos": {
+    "original": 13074,
+    "final": 2876
+   }
+  },
+  "rh_pial_DK_paracentral": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    8.15,
+    -13.5,
+    35.37
+   ],
+   "bbox": {
+    "min": [
+     -0.92,
+     -32.07,
+     19.55
+    ],
+    "max": [
+     16.72,
+     3.55,
+     57.52
+    ]
+   },
+   "triangulos": {
+    "original": 6348,
+    "final": 1414
+   }
+  },
+  "rh_pial_DK_parahippocampal": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    23.89,
+    -34.53,
+    -25.27
+   ],
+   "bbox": {
+    "min": [
+     9.67,
+     -46.15,
+     -42.69
+    ],
+    "max": [
+     33.63,
+     -22.21,
+     -6.94
+    ]
+   },
+   "triangulos": {
+    "original": 2681,
+    "final": 947
+   }
+  },
+  "rh_pial_DK_parsopercularis": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    48.45,
+    17.33,
+    -7.57
+   ],
+   "bbox": {
+    "min": [
+     30.61,
+     7.81,
+     -24.25
+    ],
+    "max": [
+     64.46,
+     31.01,
+     8.26
+    ]
+   },
+   "triangulos": {
+    "original": 5032,
+    "final": 1352
+   }
+  },
+  "rh_pial_DK_parsorbitalis": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    44.41,
+    37.6,
+    -31.15
+   ],
+   "bbox": {
+    "min": [
+     27.84,
+     17.55,
+     -41.02
+    ],
+    "max": [
+     55.95,
+     51.89,
+     -21.21
+    ]
+   },
+   "triangulos": {
+    "original": 3269,
+    "final": 1035
+   }
+  },
+  "rh_pial_DK_parstriangularis": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    47.57,
+    32.63,
+    -14.52
+   ],
+   "bbox": {
+    "min": [
+     30.13,
+     18.15,
+     -37.92
+    ],
+    "max": [
+     60.9,
+     49.28,
+     6.67
+    ]
+   },
+   "triangulos": {
+    "original": 7560,
+    "final": 1662
+   }
+  },
+  "rh_pial_DK_pericalcarine": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    7.9,
+    -74.04,
+    1.64
+   ],
+   "bbox": {
+    "min": [
+     -0.92,
+     -94.63,
+     -14.01
+    ],
+    "max": [
+     18.45,
+     -48.2,
+     17.11
+    ]
+   },
+   "triangulos": {
+    "original": 4361,
+    "final": 1253
+   }
+  },
+  "rh_pial_DK_postcentral": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    40.19,
+    -10.46,
+    25.41
+   ],
+   "bbox": {
+    "min": [
+     -0.42,
+     -28.9,
+     -13.68
+    ],
+    "max": [
+     67.86,
+     7,
+     59.5
+    ]
+   },
+   "triangulos": {
+    "original": 14910,
+    "final": 3278
+   }
+  },
+  "rh_pial_DK_posteriorcingulate": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    5.33,
+    -8.5,
+    18.2
+   ],
+   "bbox": {
+    "min": [
+     -0.98,
+     -31.83,
+     5.77
+    ],
+    "max": [
+     16.06,
+     18.98,
+     30.98
+    ]
+   },
+   "triangulos": {
+    "original": 4984,
+    "final": 1322
+   }
+  },
+  "rh_pial_DK_precentral": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    39.78,
+    2.07,
+    19.82
+   ],
+   "bbox": {
+    "min": [
+     2.44,
+     -17.64,
+     -23.84
+    ],
+    "max": [
+     66.5,
+     20.79,
+     56.03
+    ]
+   },
+   "triangulos": {
+    "original": 15476,
+    "final": 3404
+   }
+  },
+  "rh_pial_DK_precuneus": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    8.26,
+    -47.58,
+    25.37
+   ],
+   "bbox": {
+    "min": [
+     -1.48,
+     -73.74,
+     -0.34
+    ],
+    "max": [
+     20.49,
+     -23.55,
+     58.28
+    ]
+   },
+   "triangulos": {
+    "original": 13685,
+    "final": 3009
+   }
+  },
+  "rh_pial_DK_rostralanteriorcingulate": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    4.63,
+    30.18,
+    -18.67
+   ],
+   "bbox": {
+    "min": [
+     -2.06,
+     3.69,
+     -27.63
+    ],
+    "max": [
+     14.27,
+     46.26,
+     -6.09
+    ]
+   },
+   "triangulos": {
+    "original": 2197,
+    "final": 753
+   }
+  },
+  "rh_pial_DK_rostralmiddlefrontal": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    31.99,
+    46.59,
+    -7.23
+   ],
+   "bbox": {
+    "min": [
+     8.7,
+     16.42,
+     -43.07
+    ],
+    "max": [
+     57.49,
+     68.21,
+     29.04
+    ]
+   },
+   "triangulos": {
+    "original": 21466,
+    "final": 4722
+   }
+  },
+  "rh_pial_DK_superiorfrontal": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    11.89,
+    35.23,
+    13.38
+   ],
+   "bbox": {
+    "min": [
+     -0.48,
+     -0.37,
+     -31.7
+    ],
+    "max": [
+     30.81,
+     70.16,
+     52.36
+    ]
+   },
+   "triangulos": {
+    "original": 23990,
+    "final": 5276
+   }
+  },
+  "rh_pial_DK_superiorparietal": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    19.98,
+    -50.8,
+    33.69
+   ],
+   "bbox": {
+    "min": [
+     -0.7,
+     -90.07,
+     5.18
+    ],
+    "max": [
+     40.34,
+     -18.68,
+     59.14
+    ]
+   },
+   "triangulos": {
+    "original": 17520,
+    "final": 3854
+   }
+  },
+  "rh_pial_DK_superiortemporal": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    50.4,
+    -10.33,
+    -18.8
+   ],
+   "bbox": {
+    "min": [
+     31.63,
+     -43.47,
+     -53.2
+    ],
+    "max": [
+     67.87,
+     20.04,
+     10.97
+    ]
+   },
+   "triangulos": {
+    "original": 11660,
+    "final": 2564
+   }
+  },
+  "rh_pial_DK_supramarginal": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    49.77,
+    -23.3,
+    17.21
+   ],
+   "bbox": {
+    "min": [
+     28.97,
+     -45.13,
+     -8.17
+    ],
+    "max": [
+     66.4,
+     -7.29,
+     42.83
+    ]
+   },
+   "triangulos": {
+    "original": 12710,
+    "final": 2796
+   }
+  },
+  "rh_pial_DK_temporalpole": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    28.26,
+    2.14,
+    -44.97
+   ],
+   "bbox": {
+    "min": [
+     17.09,
+     -10.01,
+     -57.35
+    ],
+    "max": [
+     42.66,
+     14.78,
+     -31.04
+    ]
+   },
+   "triangulos": {
+    "original": 1428,
+    "final": 738
+   }
+  },
+  "rh_pial_DK_transversetemporal": {
+   "grupo": "corteza",
+   "hemisferio": "der",
+   "centroide": [
+    43.61,
+    -14.59,
+    -5.69
+   ],
+   "bbox": {
+    "min": [
+     33.12,
+     -23.96,
+     -14.83
+    ],
+    "max": [
+     57.66,
+     -4.39,
+     5.03
+    ]
+   },
+   "triangulos": {
+    "original": 1637,
+    "final": 781
+   }
+  },
+  "Left-Amygdala": {
+   "grupo": "subcortical",
+   "hemisferio": "izq",
+   "centroide": [
+    -25.65,
+    -10.4,
+    -29.25
+   ],
+   "bbox": {
+    "min": [
+     -34.21,
+     -15.81,
+     -38.57
+    ],
+    "max": [
+     -15.86,
+     -5.54,
+     -20.92
+    ]
+   },
+   "triangulos": {
+    "original": 2384,
+    "final": 952
+   }
+  },
+  "Left-Hippocampus": {
+   "grupo": "subcortical",
+   "hemisferio": "izq",
+   "centroide": [
+    -26.05,
+    -26.47,
+    -21.67
+   ],
+   "bbox": {
+    "min": [
+     -38.7,
+     -43,
+     -37.66
+    ],
+    "max": [
+     -12.58,
+     -11.72,
+     -5.42
+    ]
+   },
+   "triangulos": {
+    "original": 6900,
+    "final": 2760
+   }
+  },
+  "Left-Accumbens-area": {
+   "grupo": "subcortical",
+   "hemisferio": "izq",
+   "centroide": [
+    -9.97,
+    6.46,
+    -19.93
+   ],
+   "bbox": {
+    "min": [
+     -15.6,
+     -1.03,
+     -25.52
+    ],
+    "max": [
+     -6.13,
+     14.26,
+     -14.82
+    ]
+   },
+   "triangulos": {
+    "original": 1336,
+    "final": 534
+   }
+  },
+  "Left-Caudate": {
+   "grupo": "subcortical",
+   "hemisferio": "izq",
+   "centroide": [
+    -14.33,
+    5.48,
+    -5.45
+   ],
+   "bbox": {
+    "min": [
+     -20.47,
+     -23.36,
+     -22
+    ],
+    "max": [
+     -5.75,
+     21.64,
+     10.03
+    ]
+   },
+   "triangulos": {
+    "original": 5736,
+    "final": 2294
+   }
+  },
+  "Left-Putamen": {
+   "grupo": "subcortical",
+   "hemisferio": "izq",
+   "centroide": [
+    -27.37,
+    -2.29,
+    -14.28
+   ],
+   "bbox": {
+    "min": [
+     -37.83,
+     -21.08,
+     -26.69
+    ],
+    "max": [
+     -12.72,
+     14.93,
+     -0.85
+    ]
+   },
+   "triangulos": {
+    "original": 6928,
+    "final": 2770
+   }
+  },
+  "Left-Pallidum": {
+   "grupo": "subcortical",
+   "hemisferio": "izq",
+   "centroide": [
+    -23.51,
+    -5.07,
+    -15.98
+   ],
+   "bbox": {
+    "min": [
+     -31.28,
+     -18.32,
+     -21.8
+    ],
+    "max": [
+     -13.28,
+     4.91,
+     -7.7
+    ]
+   },
+   "triangulos": {
+    "original": 2912,
+    "final": 1164
+   }
+  },
+  "Left-Thalamus-Proper": {
+   "grupo": "subcortical",
+   "hemisferio": "izq",
+   "centroide": [
+    -14.51,
+    -18.34,
+    -6
+   ],
+   "bbox": {
+    "min": [
+     -27.83,
+     -36.14,
+     -16.01
+    ],
+    "max": [
+     -1.87,
+     -0.03,
+     6.19
+    ]
+   },
+   "triangulos": {
+    "original": 7460,
+    "final": 2984
+   }
+  },
+  "Left-VentralDC": {
+   "grupo": "subcortical",
+   "hemisferio": "izq",
+   "centroide": [
+    -13.17,
+    -18.31,
+    -19.54
+   ],
+   "bbox": {
+    "min": [
+     -32.39,
+     -30.64,
+     -28.58
+    ],
+    "max": [
+     0.1,
+     -1.89,
+     -11.28
+    ]
+   },
+   "triangulos": {
+    "original": 6292,
+    "final": 2516
+   }
+  },
+  "Right-Amygdala": {
+   "grupo": "subcortical",
+   "hemisferio": "der",
+   "centroide": [
+    23.5,
+    -9.63,
+    -30.64
+   ],
+   "bbox": {
+    "min": [
+     15.99,
+     -14.75,
+     -40.85
+    ],
+    "max": [
+     32.36,
+     -4.82,
+     -22
+    ]
+   },
+   "triangulos": {
+    "original": 2252,
+    "final": 900
+   }
+  },
+  "Right-Hippocampus": {
+   "grupo": "subcortical",
+   "hemisferio": "der",
+   "centroide": [
+    24.9,
+    -25.25,
+    -22.19
+   ],
+   "bbox": {
+    "min": [
+     10.81,
+     -40.64,
+     -38.7
+    ],
+    "max": [
+     36.88,
+     -11.18,
+     -4.1
+    ]
+   },
+   "triangulos": {
+    "original": 7000,
+    "final": 2800
+   }
+  },
+  "Right-Accumbens-area": {
+   "grupo": "subcortical",
+   "hemisferio": "der",
+   "centroide": [
+    8.38,
+    7.18,
+    -21.42
+   ],
+   "bbox": {
+    "min": [
+     4.12,
+     -1.69,
+     -26.9
+    ],
+    "max": [
+     14.4,
+     15.71,
+     -14.81
+    ]
+   },
+   "triangulos": {
+    "original": 1644,
+    "final": 656
+   }
+  },
+  "Right-Caudate": {
+   "grupo": "subcortical",
+   "hemisferio": "der",
+   "centroide": [
+    12.89,
+    7.01,
+    -6.93
+   ],
+   "bbox": {
+    "min": [
+     4.35,
+     -24.59,
+     -22.85
+    ],
+    "max": [
+     20.87,
+     23.54,
+     8.63
+    ]
+   },
+   "triangulos": {
+    "original": 5956,
+    "final": 2382
+   }
+  },
+  "Right-Putamen": {
+   "grupo": "subcortical",
+   "hemisferio": "der",
+   "centroide": [
+    25.28,
+    0.14,
+    -16.22
+   ],
+   "bbox": {
+    "min": [
+     11.82,
+     -18.63,
+     -27.12
+    ],
+    "max": [
+     34.88,
+     17.57,
+     -3.95
+    ]
+   },
+   "triangulos": {
+    "original": 6340,
+    "final": 2536
+   }
+  },
+  "Right-Pallidum": {
+   "grupo": "subcortical",
+   "hemisferio": "der",
+   "centroide": [
+    20.27,
+    -2.94,
+    -17.88
+   ],
+   "bbox": {
+    "min": [
+     11.79,
+     -13.96,
+     -22.85
+    ],
+    "max": [
+     27.89,
+     6.64,
+     -10.87
+    ]
+   },
+   "triangulos": {
+    "original": 2384,
+    "final": 952
+   }
+  },
+  "Right-Thalamus-Proper": {
+   "grupo": "subcortical",
+   "hemisferio": "der",
+   "centroide": [
+    12.2,
+    -16.75,
+    -6.33
+   ],
+   "bbox": {
+    "min": [
+     0.35,
+     -33.23,
+     -15.98
+    ],
+    "max": [
+     25.06,
+     0.85,
+     5.15
+    ]
+   },
+   "triangulos": {
+    "original": 6820,
+    "final": 2728
+   }
+  },
+  "Right-VentralDC": {
+   "grupo": "subcortical",
+   "hemisferio": "der",
+   "centroide": [
+    11.05,
+    -16.97,
+    -20.16
+   ],
+   "bbox": {
+    "min": [
+     -1.16,
+     -28.77,
+     -28.77
+    ],
+    "max": [
+     29.7,
+     -1.28,
+     -12.08
+    ]
+   },
+   "triangulos": {
+    "original": 6204,
+    "final": 2480
+   }
+  },
+  "Brain-Stem": {
+   "grupo": "subcortical",
+   "hemisferio": "medial",
+   "centroide": [
+    -1.43,
+    -36.73,
+    -35.07
+   ],
+   "bbox": {
+    "min": [
+     -19.29,
+     -57.62,
+     -63.84
+    ],
+    "max": [
+     18.13,
+     -18.19,
+     -8.31
+    ]
+   },
+   "triangulos": {
+    "original": 17452,
+    "final": 6980
+   }
+  }
+ }
+}

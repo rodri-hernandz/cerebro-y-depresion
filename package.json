@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@gltf-transform/core": "^4.5.0",
+    "@gltf-transform/extensions": "^4.5.0",
+    "@gltf-transform/functions": "^4.5.0",
+    "@types/three": "^0.186.0",
+    "esbuild": "^0.28.2",
+    "meshoptimizer": "^1.2.0",
+    "three": "^0.186.0",
+    "typescript": "^7.0.2"
+  },
+  "name": "cerebro-y-depresion",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Visualizador 3D interactivo: cerebro sin depresión vs con depresión ante estímulos y tratamientos (prototipo educativo)",
+  "scripts": {
+    "mallas": "bash scripts/descargar-mallas.sh",
+    "modelo": "node scripts/construir-modelo.mjs",
+    "validar": "node scripts/validar-datos.mjs",
+    "verificar": "node scripts/verificar-refs.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/validar-datos.mjs && node scripts/comprobar-refs.mjs && node scripts/construir-html.mjs",
+    "fusionar": "node scripts/fusionar-borradores.mjs"
+  }
+}
