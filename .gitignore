@@ -1,0 +1,6 @@
+node_modules/
+assets/raw/
+dev/
+.venv/
+.DS_Store
+tests/capturas/
