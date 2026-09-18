@@ -1,0 +1,796 @@
+[
+  {
+    "key": "aron2005",
+    "autores": [
+      "Aron A",
+      "Fisher H",
+      "Mashek DJ",
+      "Strong G",
+      "Li H",
+      "Brown LL"
+    ],
+    "anio": 2005,
+    "titulo": "Reward, motivation, and emotion systems associated with early-stage intense romantic love",
+    "revista": "Journal of Neurophysiology",
+    "doi": "10.1152/jn.00838.2004",
+    "pmid": "15928068",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "fMRI, 17 personas enamoradas (1–17 meses): ATV derecha y caudado posterodorsal/medial; el caudado anteromedial correlaciona con la intensidad de la pasión."
+  },
+  {
+    "key": "baikie2005",
+    "autores": [
+      "Baikie KA",
+      "Wilhelm K"
+    ],
+    "anio": 2005,
+    "titulo": "Emotional and physical health benefits of expressive writing",
+    "revista": "Advances in Psychiatric Treatment",
+    "doi": "10.1192/apt.11.5.338",
+    "pmid": null,
+    "tipo_evidencia": "revision",
+    "nota": "Revisión narrativa del paradigma de Pennebaker: beneficios emocionales y físicos modestos, posible aumento transitorio del malestar tras escribir. Revista no indexada en PubMed (sin PMID); DOI verificado en CrossRef."
+  },
+  {
+    "key": "bartels2000",
+    "autores": [
+      "Bartels A",
+      "Zeki S"
+    ],
+    "anio": 2000,
+    "titulo": "The neural basis of romantic love",
+    "revista": "NeuroReport",
+    "doi": "10.1097/00001756-200011270-00046",
+    "pmid": "11117499",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "fMRI, 17 enamorados viendo a su pareja vs amigos: activación de ínsula media, cingulada anterior, caudado y putamen; desactivación de amígdala, cingulada posterior y prefrontal derecha."
+  },
+  {
+    "key": "bartholomew2005",
+    "autores": [
+      "Bartholomew JB",
+      "Morrison D",
+      "Ciccolo JT"
+    ],
+    "anio": 2005,
+    "titulo": "Effects of acute exercise on mood and well-being in patients with major depressive disorder",
+    "revista": "Medicine & Science in Sports & Exercise",
+    "doi": "10.1249/01.mss.0000178101.78322.dd",
+    "pmid": "16331126",
+    "tipo_evidencia": "RCT",
+    "nota": "40 pacientes con TDM: 30 min de ejercicio moderado vs reposo; solo el ejercicio aumentó bienestar positivo y vigor."
+  },
+  {
+    "key": "blood2001",
+    "autores": [
+      "Blood AJ",
+      "Zatorre RJ"
+    ],
+    "anio": 2001,
+    "titulo": "Intensely pleasurable responses to music correlate with activity in brain regions implicated in reward and emotion",
+    "revista": "Proceedings of the National Academy of Sciences",
+    "doi": "10.1073/pnas.191355898",
+    "pmid": "11573015",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "PET con música autoseleccionada que produce escalofríos: aumento de flujo en estriado ventral, mesencéfalo, ínsula y orbitofrontal; descenso en amígdala y prefrontal ventromedial."
+  },
+  {
+    "key": "boecker2008",
+    "autores": [
+      "Boecker H",
+      "Sprenger T",
+      "Spilker ME",
+      "Henriksen G",
+      "Koppenhoefer M",
+      "Wagner KJ",
+      "Valet M",
+      "Berthele A",
+      "Tolle TR"
+    ],
+    "anio": 2008,
+    "titulo": "The runner's high: opioidergic mechanisms in the human brain",
+    "revista": "Cerebral Cortex",
+    "doi": "10.1093/cercor/bhn013",
+    "pmid": "18296435",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "PET con [18F]FDPN en 10 atletas tras 2 h de carrera: liberación opioide en prefrontal/orbitofrontal, cingulada anterior e ínsula, correlacionada con la euforia."
+  },
+  {
+    "key": "brown1988",
+    "autores": [
+      "Brown SA",
+      "Schuckit MA"
+    ],
+    "anio": 1988,
+    "titulo": "Changes in depression among abstinent alcoholics",
+    "revista": "Journal of Studies on Alcohol",
+    "doi": "10.15288/jsa.1988.49.412",
+    "pmid": "3216643",
+    "tipo_evidencia": "observacional",
+    "nota": "191 alcohólicos primarios varones hospitalizados (sin trastorno psiquiátrico previo), HDRS semanal: 42 % con depresión clínicamente significativa (≥20) al ingreso → 6 % en la semana 4 de abstinencia; mayor caída en la semana 2; síntomas vegetativos persisten más."
+  },
+  {
+    "key": "bunzeck2006",
+    "autores": [
+      "Bunzeck N",
+      "Düzel E"
+    ],
+    "anio": 2006,
+    "titulo": "Absolute coding of stimulus novelty in the human substantia nigra/VTA",
+    "revista": "Neuron",
+    "doi": "10.1016/j.neuron.2006.06.021",
+    "pmid": "16880131",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "fMRI: la sustancia negra/ATV responde a la novedad absoluta del estímulo, no a otras formas de saliencia."
+  },
+  {
+    "key": "burke2005",
+    "autores": [
+      "Burke HM",
+      "Davis MC",
+      "Otte C",
+      "Mohr DC"
+    ],
+    "anio": 2005,
+    "titulo": "Depression and cortisol responses to psychological stress: a meta-analysis",
+    "revista": "Psychoneuroendocrinology",
+    "doi": "10.1016/j.psyneuen.2005.02.010",
+    "pmid": "15961250",
+    "tipo_evidencia": "meta-analisis",
+    "nota": "7 estudios (n=196): cortisol basal y de estrés similar en TDM, pero recuperación más lenta; reactividad embotada en estudios vespertinos y pacientes más graves."
+  },
+  {
+    "key": "coan2006",
+    "autores": [
+      "Coan JA",
+      "Schaefer HS",
+      "Davidson RJ"
+    ],
+    "anio": 2006,
+    "titulo": "Lending a hand: social regulation of the neural response to threat",
+    "revista": "Psychological Science",
+    "doi": "10.1111/j.1467-9280.2006.01832.x",
+    "pmid": "17201784",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "fMRI, 16 mujeres casadas; tomar la mano del cónyuge atenúa la respuesta a la amenaza en ínsula anterior derecha, giro frontal superior e hipotálamo según la calidad marital."
+  },
+  {
+    "key": "desbordes2012",
+    "autores": [
+      "Desbordes G",
+      "Negi LT",
+      "Pace TW",
+      "Wallace BA",
+      "Raison CL",
+      "Schwartz EL"
+    ],
+    "anio": 2012,
+    "titulo": "Effects of mindful-attention and compassion meditation training on amygdala response to emotional stimuli in an ordinary, non-meditative state",
+    "revista": "Frontiers in Human Neuroscience",
+    "doi": "10.3389/fnhum.2012.00292",
+    "pmid": "23125828",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "fMRI pre/post en adultos sanos: 8 semanas de entrenamiento en atención plena redujeron la activación de la amígdala derecha ante imágenes emocionales (todas las valencias) en estado no meditativo; sin cambios en el control activo."
+  },
+  {
+    "key": "dinoff2016",
+    "autores": [
+      "Dinoff A",
+      "Herrmann N",
+      "Swardfager W",
+      "Liu CS",
+      "Sherman C",
+      "Chan S",
+      "Lanctôt KL"
+    ],
+    "anio": 2016,
+    "titulo": "The Effect of Exercise Training on Resting Concentrations of Peripheral Brain-Derived Neurotrophic Factor (BDNF): A Meta-Analysis",
+    "revista": "PLoS ONE",
+    "doi": "10.1371/journal.pone.0163037",
+    "pmid": "27658238",
+    "tipo_evidencia": "meta-analisis",
+    "nota": "29 estudios de intervenciones ≥2 semanas, población mayormente sin TDM. BDNF periférico en reposo: SMD 0.39 global; aeróbico SMD 0.66; resistencia sin efecto."
+  },
+  {
+    "key": "durazzo2024",
+    "autores": [
+      "Durazzo TC",
+      "Stephens LH",
+      "Meyerhoff DJ"
+    ],
+    "anio": 2024,
+    "titulo": "Regional cortical thickness recovery with extended abstinence after treatment in those with alcohol use disorder",
+    "revista": "Alcohol",
+    "doi": "10.1016/j.alcohol.2023.08.011",
+    "pmid": "37657667",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "TUA evaluado a ~1 semana (n=68), 1 mes (n=88) y 7.3 meses (n=40) de abstinencia; 34 ROI bilaterales (FreeSurfer). ↑ lineal del grosor en 25/34 ROI; mayor tasa en el primer mes; equivalencia con controles en 24/34 ROI a 7.3 meses. Menor recuperación frontal anterior con tabaquismo y factores proaterogénicos."
+  },
+  {
+    "key": "erickson2011",
+    "autores": [
+      "Erickson KI",
+      "Voss MW",
+      "Prakash RS",
+      "Basak C",
+      "Szabo A",
+      "Chaddock L",
+      "Kim JS",
+      "Heo S",
+      "Alves H",
+      "White SM",
+      "Wojcicki TR",
+      "Mailey E",
+      "Vieira VJ",
+      "Martin SA",
+      "Pence BD",
+      "Woods JA",
+      "McAuley E",
+      "Kramer AF"
+    ],
+    "anio": 2011,
+    "titulo": "Exercise training increases size of hippocampus and improves memory",
+    "revista": "Proceedings of the National Academy of Sciences",
+    "doi": "10.1073/pnas.1015950108",
+    "pmid": "21282661",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "ECA de 12 meses con RM estructural en 120 adultos mayores SANOS: +2 % de volumen del hipocampo anterior con ejercicio aeróbico, asociado a ↑BDNF sérico; sin cambios en caudado ni tálamo. No es población con TDM."
+  },
+  {
+    "key": "farb2007",
+    "autores": [
+      "Farb NA",
+      "Segal ZV",
+      "Mayberg H",
+      "Bean J",
+      "McKeon D",
+      "Fatima Z",
+      "Anderson AK"
+    ],
+    "anio": 2007,
+    "titulo": "Attending to the present: mindfulness meditation reveals distinct neural modes of self-reference",
+    "revista": "Social Cognitive and Affective Neuroscience",
+    "doi": "10.1093/scan/nsm030",
+    "pmid": "18985137",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "fMRI en adultos sanos con y sin curso de mindfulness de 8 semanas: el foco experiencial redujo la CPF medial y aumentó una red lateral derecha (CPF lateral, ínsula, S2, lóbulo parietal inferior); desacoplamiento ínsula–CPF medial en el grupo entrenado."
+  },
+  {
+    "key": "georgiadis2006",
+    "autores": [
+      "Georgiadis JR",
+      "Kortekaas R",
+      "Kuipers R",
+      "Nieuwenburg A",
+      "Pruim J",
+      "Reinders AATS",
+      "Holstege G"
+    ],
+    "anio": 2006,
+    "titulo": "Regional cerebral blood flow changes associated with clitorally induced orgasm in healthy women",
+    "revista": "European Journal of Neuroscience",
+    "doi": "10.1111/j.1460-9568.2006.05206.x",
+    "pmid": "17156391",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "PET en 12 mujeres sanas; estimulación activa S1/S2; orgasmo desactiva orbitofrontal lateral izquierda y lóbulo temporal; excitación correlaciona con mesencéfalo ventral y caudado derecho."
+  },
+  {
+    "key": "godlewska2012",
+    "autores": [
+      "Godlewska BR",
+      "Norbury R",
+      "Selvaraj S",
+      "Cowen PJ",
+      "Harmer CJ"
+    ],
+    "anio": 2012,
+    "titulo": "Short-term SSRI treatment normalises amygdala hyperactivity in depressed patients",
+    "revista": "Psychological Medicine",
+    "doi": "10.1017/S0033291712000591",
+    "tipo_evidencia": "RCT"
+  },
+  {
+    "key": "goldberg2018",
+    "autores": [
+      "Goldberg SB",
+      "Tucker RP",
+      "Greene PA",
+      "Davidson RJ",
+      "Wampold BE",
+      "Kearney DJ",
+      "Simpson TL"
+    ],
+    "anio": 2018,
+    "titulo": "Mindfulness-based interventions for psychiatric disorders: A systematic review and meta-analysis",
+    "revista": "Clinical Psychology Review",
+    "doi": "10.1016/j.cpr.2017.10.011",
+    "pmid": "29126747",
+    "tipo_evidencia": "meta-analisis",
+    "nota": "142 muestras, 12 005 participantes con trastornos psiquiátricos. Postratamiento: d 0.55 vs sin tratamiento, d 0.23 vs controles activos específicos; sin diferencia frente a tratamientos basados en evidencia. Evidencia más consistente en depresión."
+  },
+  {
+    "key": "hamilton2012",
+    "autores": [
+      "Hamilton JP",
+      "Etkin A",
+      "Furman DJ",
+      "Lemus MG",
+      "Johnson RF",
+      "Gotlib IH"
+    ],
+    "anio": 2012,
+    "titulo": "Functional neuroimaging of major depressive disorder: a meta-analysis and new integration of baseline activation and neural response data",
+    "revista": "American Journal of Psychiatry",
+    "doi": "10.1176/appi.ajp.2012.11071105",
+    "pmid": "22535198",
+    "tipo_evidencia": "meta-analisis",
+    "nota": "Meta-análisis de neuroimagen en TDM: hiperreactividad de amígdala e ínsula a estímulos negativos; hipoactividad de estriado dorsal y prefrontal dorsolateral."
+  },
+  {
+    "key": "hare2013",
+    "autores": [
+      "Hare OA",
+      "Wetherell MA",
+      "Smith MA"
+    ],
+    "anio": 2013,
+    "titulo": "State anxiety and cortisol reactivity to skydiving in novice versus experienced skydivers",
+    "revista": "Physiology & Behavior",
+    "doi": "10.1016/j.physbeh.2013.05.011",
+    "pmid": "23685228",
+    "tipo_evidencia": "observacional",
+    "nota": "11 novatos vs 13 expertos: cortisol salival elevado tras el salto en ambos grupos, sin habituación pese a menor ansiedad en expertos."
+  },
+  {
+    "key": "holstege2003",
+    "autores": [
+      "Holstege G",
+      "Georgiadis JR",
+      "Paans AMJ",
+      "Meiners LC",
+      "van der Graaf FHCE",
+      "Reinders AATS"
+    ],
+    "anio": 2003,
+    "titulo": "Brain activation during human male ejaculation",
+    "revista": "Journal of Neuroscience",
+    "doi": "10.1523/JNEUROSCI.23-27-09185.2003",
+    "pmid": "14534252",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "PET en hombres; activación primaria de la zona mesodiencefálica incluyendo ATV, tálamo y putamen lateral; descenso en amígdala y corteza entorrinal."
+  },
+  {
+    "key": "holzel2011",
+    "autores": [
+      "Hölzel BK",
+      "Carmody J",
+      "Vangel M",
+      "Congleton C",
+      "Yerramsetti SM",
+      "Gard T",
+      "Lazar SW"
+    ],
+    "anio": 2011,
+    "titulo": "Mindfulness practice leads to increases in regional brain gray matter density",
+    "revista": "Psychiatry Research: Neuroimaging",
+    "doi": "10.1016/j.pscychresns.2010.08.006",
+    "pmid": "21071182",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "VBM longitudinal en 16 adultos sanos tras MBSR de 8 semanas vs 17 en lista de espera: ↑ materia gris en hipocampo izquierdo (ROI a priori), cingulada posterior, unión temporoparietal y cerebelo. Muestra pequeña, sanos."
+  },
+  {
+    "key": "inagaki2012",
+    "autores": [
+      "Inagaki TK",
+      "Eisenberger NI"
+    ],
+    "anio": 2012,
+    "titulo": "Neural correlates of giving support to a loved one",
+    "revista": "Psychosomatic Medicine",
+    "doi": "10.1097/PSY.0b013e3182359335",
+    "pmid": "22071630",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "fMRI, 20 parejas; dar apoyo (sostener el brazo de la pareja bajo descargas) activa estriado ventral y área septal; la actividad septal se asocia a menor actividad amigdalina."
+  },
+  {
+    "key": "jacka2015",
+    "autores": [
+      "Jacka FN",
+      "Cherbuin N",
+      "Anstey KJ",
+      "Sachdev P",
+      "Butterworth P"
+    ],
+    "anio": 2015,
+    "titulo": "Western diet is associated with a smaller hippocampus: a longitudinal investigation",
+    "revista": "BMC Medicine",
+    "doi": "10.1186/s12916-015-0461-x",
+    "pmid": "26349802",
+    "tipo_evidencia": "observacional",
+    "nota": "255 adultos de 60–64 años sin TDM, dos RM con ~4 años de diferencia. Patrón 'prudente': +45.7 mm³ de hipocampo izquierdo por DE; patrón 'occidental': −52.6 mm³. Sin efecto sobre la tasa de atrofia ni sobre el hipocampo derecho. Asociación, no intervención."
+  },
+  {
+    "key": "jacka2017",
+    "autores": [
+      "Jacka FN",
+      "O'Neil A",
+      "Opie R",
+      "Itsiopoulos C",
+      "Cotton S",
+      "Mohebbi M",
+      "Castle D",
+      "Dash S",
+      "Mihalopoulos C",
+      "Chatterton ML",
+      "Brazionis L",
+      "Dean OM",
+      "Hodge AM",
+      "Berk M"
+    ],
+    "anio": 2017,
+    "titulo": "A randomised controlled trial of dietary improvement for adults with major depression (the 'SMILES' trial)",
+    "revista": "BMC Medicine",
+    "doi": "10.1186/s12916-017-0791-y",
+    "pmid": "28137247",
+    "tipo_evidencia": "RCT",
+    "nota": "Ensayo SMILES: 67 adultos con TDM moderado-grave, 12 semanas, 7 consultas nutricionales (dieta mediterránea modificada) vs apoyo social, adjunto al tratamiento habitual. MADRS d = −1.16; remisión 32.3 % vs 8.0 %; NNT 4.1. Muestra pequeña, simple ciego. Sin neuroimagen."
+  },
+  {
+    "key": "keren2018",
+    "autores": [
+      "Keren H",
+      "O'Callaghan G",
+      "Vidal-Ribas P",
+      "Buzzell GA",
+      "Brotman MA",
+      "Leibenluft E",
+      "Pan PM",
+      "Meffert L",
+      "Kaiser A",
+      "Wolke S",
+      "Pine DS",
+      "Stringaris A"
+    ],
+    "anio": 2018,
+    "titulo": "Reward processing in depression: a conceptual and meta-analytic review across fMRI and EEG studies",
+    "revista": "American Journal of Psychiatry",
+    "doi": "10.1176/appi.ajp.2018.17101124",
+    "pmid": "29921146",
+    "tipo_evidencia": "meta-analisis",
+    "nota": "Meta-análisis fMRI/EEG: hipoactivación estriatal (caudado, accumbens) a recompensa en TDM."
+  },
+  {
+    "key": "kirsch2005",
+    "autores": [
+      "Kirsch P",
+      "Esslinger C",
+      "Chen Q",
+      "Mier D",
+      "Lis S",
+      "Siddhanti S",
+      "Gruppe H",
+      "Mattay VS",
+      "Gallhofer B",
+      "Meyer-Lindenberg A"
+    ],
+    "anio": 2005,
+    "titulo": "Oxytocin modulates neural circuitry for social cognition and fear in humans",
+    "revista": "Journal of Neuroscience",
+    "doi": "10.1523/JNEUROSCI.3984-05.2005",
+    "pmid": "16339042",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "fMRI doble ciego cruzado en 15 hombres: oxitocina intranasal reduce la activación de la amígdala a estímulos de miedo y su acoplamiento con el tronco encefálico."
+  },
+  {
+    "key": "krpan2013",
+    "autores": [
+      "Krpan KM",
+      "Kross E",
+      "Berman MG",
+      "Deldin PJ",
+      "Askren MK",
+      "Jonides J"
+    ],
+    "anio": 2013,
+    "titulo": "An everyday activity as a treatment for depression: the benefits of expressive writing for people diagnosed with major depressive disorder",
+    "revista": "Journal of Affective Disorders",
+    "doi": "10.1016/j.jad.2013.05.065",
+    "pmid": "23790815",
+    "tipo_evidencia": "RCT",
+    "nota": "40 personas con TDM actual (SCID): 20 min de escritura expresiva × 3 días vs escritura neutra. ↓ BDI y PHQ-9 al día 5 y a las 4 semanas. Desenlaces solo conductuales; muestra autoseleccionada; sin seguimiento posterior."
+  },
+  {
+    "key": "kuyken2016",
+    "autores": [
+      "Kuyken W",
+      "Warren FC",
+      "Taylor RS",
+      "Whalley B",
+      "Crane C",
+      "Bondolfi G",
+      "Hayes R",
+      "Huijbers M",
+      "Ma H",
+      "Schweizer S",
+      "Segal Z",
+      "Speckens A",
+      "Teasdale JD",
+      "Van Heeringen K",
+      "Williams M",
+      "Byford S",
+      "Byng R",
+      "Dalgleish T"
+    ],
+    "anio": 2016,
+    "titulo": "Efficacy of Mindfulness-Based Cognitive Therapy in Prevention of Depressive Relapse: An Individual Patient Data Meta-analysis From Randomized Trials",
+    "revista": "JAMA Psychiatry",
+    "doi": "10.1001/jamapsychiatry.2016.0076",
+    "pmid": "27119968",
+    "tipo_evidencia": "meta-analisis",
+    "nota": "Meta-análisis de datos individuales: 9 ECA, 1258 pacientes con depresión recurrente en remisión. MBCT redujo el riesgo de recaída a 60 semanas (HR 0.69, IC 95 % 0.58–0.82); frente a tratamientos activos HR 0.79 (0.64–0.97). Mayor beneficio con más síntomas residuales."
+  },
+  {
+    "key": "lassale2019",
+    "autores": [
+      "Lassale C",
+      "Batty GD",
+      "Baghdadli A",
+      "Jacka F",
+      "Sánchez-Villegas A",
+      "Kivimäki M",
+      "Akbaraly T"
+    ],
+    "anio": 2019,
+    "titulo": "Healthy dietary indices and risk of depressive outcomes: a systematic review and meta-analysis of observational studies",
+    "revista": "Molecular Psychiatry",
+    "doi": "10.1038/s41380-018-0237-8",
+    "pmid": "30254236",
+    "tipo_evidencia": "meta-analisis",
+    "nota": "Publicado en línea en 2018 (impreso 2019). 20 estudios longitudinales + 21 transversales. Dieta mediterránea (mayor vs menor adherencia): RR de depresión incidente 0.67 (IC 95 % 0.55–0.82); índice inflamatorio dietético bajo: RR 0.76. Solo observacional."
+  },
+  {
+    "key": "leknes2011",
+    "autores": [
+      "Leknes S",
+      "Lee M",
+      "Berna C",
+      "Andersson J",
+      "Tracey I"
+    ],
+    "anio": 2011,
+    "titulo": "Relief as a reward: hedonic and neural responses to safety from pain",
+    "revista": "PLoS ONE",
+    "doi": "10.1371/journal.pone.0017870",
+    "pmid": "21490964",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "fMRI en 18 sanos: el alivio ante la seguridad activa el accumbens en proporción al placer del alivio y converge con la recompensa apetitiva en prefrontal ventromedial."
+  },
+  {
+    "key": "lepping2016",
+    "autores": [
+      "Lepping RJ",
+      "Atchley RA",
+      "Chrysikou E",
+      "Martin LE",
+      "Clair AA",
+      "Ingram RE",
+      "Simmons WK",
+      "Savage CR"
+    ],
+    "anio": 2016,
+    "titulo": "Neural processing of emotional musical and nonmusical stimuli in depression",
+    "revista": "PLoS ONE",
+    "doi": "10.1371/journal.pone.0156859",
+    "pmid": "27284693",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "fMRI, 19 TDM vs 20 controles; en cingulada anterior rostral los controles responden más a música positiva y los pacientes a la negativa."
+  },
+  {
+    "key": "lieberman2007",
+    "autores": [
+      "Lieberman MD",
+      "Eisenberger NI",
+      "Crockett MJ",
+      "Tom SM",
+      "Pfeifer JH",
+      "Way BM"
+    ],
+    "anio": 2007,
+    "titulo": "Putting feelings into words: affect labeling disrupts amygdala activity in response to affective stimuli",
+    "revista": "Psychological Science",
+    "doi": "10.1111/j.1467-9280.2007.01916.x",
+    "pmid": "17576282",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "fMRI en adultos sanos: etiquetar el afecto de imágenes negativas redujo la respuesta de la amígdala y aumentó la CPF ventrolateral derecha; correlación inversa mediada por la CPF medial. Tarea de etiquetado, no escritura; proxy mecanístico."
+  },
+  {
+    "key": "loken2009",
+    "autores": [
+      "Löken LS",
+      "Wessberg J",
+      "Morrison I",
+      "McGlone F",
+      "Olausson H"
+    ],
+    "anio": 2009,
+    "titulo": "Coding of pleasant touch by unmyelinated afferents in humans",
+    "revista": "Nature Neuroscience",
+    "doi": "10.1038/nn.2312",
+    "pmid": "19363489",
+    "tipo_evidencia": "observacional",
+    "nota": "Microneurografía: las aferentes C-táctiles responden máximamente a caricias de 1–10 cm/s, las velocidades percibidas como más placenteras."
+  },
+  {
+    "key": "magidson2013",
+    "autores": [
+      "Magidson JF",
+      "Wang S",
+      "Lejuez CW",
+      "Iza M",
+      "Blanco C"
+    ],
+    "anio": 2013,
+    "titulo": "Prospective study of substance-induced and independent major depressive disorder among individuals with substance use disorders in a nationally representative sample",
+    "revista": "Depression and Anxiety",
+    "doi": "10.1002/da.22122",
+    "pmid": "23649540",
+    "tipo_evidencia": "observacional",
+    "nota": "NESARC, n = 2121 con trastorno por uso de sustancias, seguimiento a 3 años: la depresión inducida por sustancias fue rara y >95 % de los episodios depresivos posteriores en quienes la tenían fueron TDM independiente. Implica que la sobriedad no sustituye el tratamiento del TDM comórbido."
+  },
+  {
+    "key": "ng2019",
+    "autores": [
+      "Ng TH",
+      "Alloy LB",
+      "Smith DV"
+    ],
+    "anio": 2019,
+    "titulo": "Meta-analysis of reward processing in major depressive disorder reveals distinct abnormalities within the reward circuit",
+    "revista": "Translational Psychiatry",
+    "doi": "10.1038/s41398-019-0644-x",
+    "pmid": "31712555",
+    "tipo_evidencia": "meta-analisis",
+    "nota": "Meta-análisis fMRI: menor activación de estriado ventral/caudado y mayor activación relativa de orbitofrontal y prefrontal dorsomedial en TDM."
+  },
+  {
+    "key": "olausson2002",
+    "autores": [
+      "Olausson H",
+      "Lamarre Y",
+      "Backlund H",
+      "Morin C",
+      "Wallin BG",
+      "Starck G",
+      "Ekholm S",
+      "Strigo I",
+      "Worsley K",
+      "Vallbo ÅB",
+      "Bushnell MC"
+    ],
+    "anio": 2002,
+    "titulo": "Unmyelinated tactile afferents signal touch and project to insular cortex",
+    "revista": "Nature Neuroscience",
+    "doi": "10.1038/nn896",
+    "pmid": "12145636",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "Paciente sin fibras mielinizadas gruesas: el tacto suave mediado por aferentes C-táctiles activa la ínsula (fMRI), no la corteza somatosensorial primaria."
+  },
+  {
+    "key": "osuch2009",
+    "autores": [
+      "Osuch EA",
+      "Bluhm RL",
+      "Williamson PC",
+      "Théberge J",
+      "Densmore M",
+      "Neufeld RWJ"
+    ],
+    "anio": 2009,
+    "titulo": "Brain activation to favorite music in healthy controls and depressed patients",
+    "revista": "NeuroReport",
+    "doi": "10.1097/WNR.0b013e32832f4da3",
+    "pmid": "19617860",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "fMRI, 16 TDM vs 15 controles; música favorita vs neutra activa menos orbitofrontal medial y accumbens/estriado ventral en TDM."
+  },
+  {
+    "key": "salimpoor2011",
+    "autores": [
+      "Salimpoor VN",
+      "Benovoy M",
+      "Larcher K",
+      "Dagher A",
+      "Zatorre RJ"
+    ],
+    "anio": 2011,
+    "titulo": "Anatomically distinct dopamine release during anticipation and experience of peak emotion to music",
+    "revista": "Nature Neuroscience",
+    "doi": "10.1038/nn.2726",
+    "pmid": "21217764",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "PET con racloprida + fMRI; dopamina en caudado durante la anticipación y en accumbens en el pico hedónico."
+  },
+  {
+    "key": "sara2009",
+    "autores": [
+      "Sara SJ"
+    ],
+    "anio": 2009,
+    "titulo": "The locus coeruleus and noradrenergic modulation of cognition",
+    "revista": "Nature Reviews Neuroscience",
+    "doi": "10.1038/nrn2573",
+    "pmid": "19190638",
+    "tipo_evidencia": "revision",
+    "nota": "Revisión del locus coeruleus como núcleo noradrenérgico de alerta, atención y respuesta a la novedad y el estrés."
+  },
+  {
+    "key": "schuch2016",
+    "autores": [
+      "Schuch FB",
+      "Vancampfort D",
+      "Richards J",
+      "Rosenbaum S",
+      "Ward PB",
+      "Stubbs B"
+    ],
+    "anio": 2016,
+    "titulo": "Exercise as a treatment for depression: a meta-analysis adjusting for publication bias",
+    "revista": "Journal of Psychiatric Research",
+    "doi": "10.1016/j.jpsychires.2016.02.023",
+    "pmid": "26978184",
+    "tipo_evidencia": "meta-analisis",
+    "nota": "Meta-análisis de RCT: efecto antidepresivo grande del ejercicio en TDM, robusto tras ajustar por sesgo de publicación."
+  },
+  {
+    "key": "stetler2011",
+    "autores": [
+      "Stetler C",
+      "Miller GE"
+    ],
+    "anio": 2011,
+    "titulo": "Depression and hypothalamic-pituitary-adrenal activation: a quantitative summary of four decades of research",
+    "revista": "Psychosomatic Medicine",
+    "doi": "10.1097/PSY.0b013e31820ad12b",
+    "pmid": "21257974",
+    "tipo_evidencia": "meta-analisis",
+    "nota": "Meta-análisis: hiperactivación basal del eje HPA (cortisol, ACTH) en TDM."
+  },
+  {
+    "key": "szuhany2015",
+    "autores": [
+      "Szuhany KL",
+      "Bugatti M",
+      "Otto MW"
+    ],
+    "anio": 2015,
+    "titulo": "A meta-analytic review of the effects of exercise on brain-derived neurotrophic factor",
+    "revista": "Journal of Psychiatric Research",
+    "doi": "10.1016/j.jpsychires.2014.10.003",
+    "pmid": "25455510",
+    "tipo_evidencia": "meta-analisis",
+    "nota": "29 estudios (n=1111): una sesión de ejercicio eleva el BDNF periférico (g = 0.46); el entrenamiento regular intensifica el efecto agudo (g = 0.59)."
+  },
+  {
+    "key": "volkow2001",
+    "autores": [
+      "Volkow ND",
+      "Chang L",
+      "Wang GJ",
+      "Fowler JS",
+      "Franceschi D",
+      "Sedler M",
+      "Gatley SJ",
+      "Miller E",
+      "Hitzemann R",
+      "Ding YS",
+      "Logan J"
+    ],
+    "anio": 2001,
+    "titulo": "Loss of dopamine transporters in methamphetamine abusers recovers with protracted abstinence",
+    "revista": "Journal of Neuroscience",
+    "doi": "10.1523/JNEUROSCI.21-23-09414.2001",
+    "pmid": "11717374",
+    "tipo_evidencia": "neuroimagen",
+    "nota": "PET con [11C]d-treo-metilfenidato en 5 consumidores de metanfetamina: DAT estriatal aumentó entre la abstinencia corta (<6 meses) y la prolongada (12–17 meses): caudado +19 %, putamen +16 %. Mejoría neuropsicológica no significativa. Muestra muy pequeña; no TDM."
+  }
+]

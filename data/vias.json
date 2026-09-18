@@ -1,0 +1,16 @@
+{
+  "_nota": "Vías esquemáticas por neurotransmisor para las partículas animadas. Cada vía es una lista de regiones (ids de regiones.json) que la curva recorre en orden, por hemisferio. Son ilustrativas: resumen el origen y los destinos principales, no la anatomía completa.",
+  "principales": ["dopamina", "serotonina", "noradrenalina", "cortisol"],
+  "neurotransmisores": {
+    "dopamina":          { "nombre": "Dopamina",          "corto": "DA",   "color": "#ffc857", "vias": [["atv", "accumbens", "vmpfc"], ["atv", "caudado", "dlpfc"]], "paciente": "El mensajero de la motivación y el gusto por las cosas." },
+    "serotonina":        { "nombre": "Serotonina",        "corto": "5-HT", "color": "#5fd3c4", "vias": [["rafe", "hipocampo", "acc_rostral"], ["rafe", "amigdala", "vmpfc"]], "paciente": "Regula el ánimo, el sueño y el apetito; sobre él actúan los antidepresivos ISRS." },
+    "noradrenalina":     { "nombre": "Noradrenalina",     "corto": "NA",   "color": "#8fb3ff", "vias": [["locus_coeruleus", "amigdala", "dlpfc"]], "paciente": "El mensajero de la alerta y la energía." },
+    "cortisol":          { "nombre": "Cortisol",          "corto": "CORT", "color": "#ff8f7a", "vias": [["hipotalamo", "hipocampo"], ["hipotalamo", "amigdala"]], "paciente": "La hormona del estrés; en exceso y por mucho tiempo desgasta la memoria." },
+    "glutamato":         { "nombre": "Glutamato",         "corto": "GLU",  "color": "#c4b5fd", "vias": [["dlpfc", "acc_rostral", "hipocampo"]], "paciente": "El mensajero que forma y refuerza conexiones entre neuronas." },
+    "gaba":              { "nombre": "GABA",              "corto": "GABA", "color": "#7dd3fc", "vias": [["accumbens", "palido", "talamo"]], "paciente": "El freno del cerebro: calma la actividad excesiva." },
+    "opioides":          { "nombre": "Opioides endógenos","corto": "OPI",  "color": "#f9a8d4", "vias": [["tronco", "accumbens", "insula"]], "paciente": "Los analgésicos naturales del cuerpo; dan la sensación de bienestar." },
+    "oxitocina":         { "nombre": "Oxitocina",         "corto": "OXT",  "color": "#fda4af", "vias": [["hipotalamo", "amigdala", "accumbens"]], "paciente": "El mensajero del vínculo y la confianza." },
+    "endocannabinoides": { "nombre": "Endocannabinoides", "corto": "eCB",  "color": "#86efac", "vias": [["hipocampo", "amigdala", "vmpfc"]], "paciente": "Mensajeros propios del cuerpo sobre los que actúa el cannabis." },
+    "bdnf":              { "nombre": "BDNF",              "corto": "BDNF", "color": "#a7f3d0", "vias": [], "paciente": "El 'fertilizante' de las neuronas: ayuda a que crezcan y se conecten." }
+  }
+}

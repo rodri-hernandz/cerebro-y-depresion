@@ -1,0 +1,7 @@
+{
+  "reactividad_base": { "accumbens": 0.55, "caudado": 0.65, "vmpfc": 0.8, "atv": 0.7, "amigdala": 1.5, "insula": 1.3, "acc_dorsal": 1.2, "sgacc": 1.45, "acc_rostral": 1.2, "dlpfc": 0.7, "vlpfc": 0.8, "hipocampo": 0.85, "hipotalamo": 1.35 },
+  "neurotransmisores_base": { "dopamina": 0.7, "serotonina": 0.7, "noradrenalina": 0.85, "cortisol": 1.5, "glutamato": 1.15, "gaba": 0.85, "bdnf": 0.6, "opioides": 0.8, "oxitocina": 0.9, "endocannabinoides": 0.9 },
+  "escala_severidad": { "leve": 0.5, "moderada": 1.0, "grave": 1.4 },
+  "justificacion": {},
+  "refs": ["keren2018", "hamilton2012"]
+}

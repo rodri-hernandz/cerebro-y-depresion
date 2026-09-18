@@ -1,0 +1,650 @@
+{
+  "_nota": "Borrador B de tratamientos de estilo de vida. Parámetros de curva, efecto_region, efecto_nt e impulso_nt son ilustrativos (ver resumen_evidencia de cada entrada). Todos los DOI verificados en CrossRef y PMID en PubMed el 2026-09-17; baikie2005 no está indexada en PubMed.",
+  "entradas": [
+    {
+      "id": "ejercicio",
+      "categoria": "estilo_vida",
+      "nombre": "Ejercicio aeróbico regular (3 veces por semana, 30–45 min)",
+      "nombre_corto": "Ejercicio",
+      "icono": "🏃",
+      "nivel_evidencia": "inferida",
+      "resumen_evidencia": "La eficacia clínica en TDM es directa (meta-análisis de ECA con efecto grande, Schuch 2016), pero los cambios cerebrales que se muestran (+2 % de volumen del hipocampo anterior y ↑BDNF) provienen de adultos mayores sanos tras 12 meses (Erickson 2011) y de meta-análisis de BDNF en población general (Dinoff 2016), por lo que se extrapolan al cerebro con depresión. Los parámetros de la curva (mitad del efecto hacia la semana 5, techo de 60 %) son ilustrativos, no medidos.",
+      "curva": {
+        "tipo": "logistica",
+        "semana_50": 5,
+        "pendiente": 1.0,
+        "e_max": 0.6
+      },
+      "efecto_global": 0.3,
+      "efecto_region": {
+        "hipocampo": 1.0,
+        "dlpfc": 0.5,
+        "accumbens": 0.6,
+        "hipotalamo": 0.5
+      },
+      "efecto_nt": {
+        "bdnf": 1.0,
+        "cortisol": 0.5,
+        "dopamina": 0.5
+      },
+      "impulso_nt": {
+        "bdnf": {
+          "magnitud": 0.15,
+          "inicio_dias": 0,
+          "rampa_dias": 14
+        },
+        "opioides": {
+          "magnitud": 0.2,
+          "inicio_dias": 0,
+          "rampa_dias": 7
+        }
+      },
+      "hitos": [
+        {
+          "dia": 7,
+          "paciente": "En la primera semana el cambio es sobre todo momentáneo: después de cada sesión tiende a sentirse un alivio de unas horas, porque el cuerpo libera sus propios opioides. El cerebro todavía no ha cambiado de forma duradera.",
+          "clinico": "Efecto agudo por sesión: liberación de opioides endógenos en regiones frontolímbicas (prefrontal/orbitofrontal, cingulada anterior, ínsula), correlacionada con la euforia percibida en atletas sanos [ref:boecker2008]. Aún no son esperables cambios estructurales ni de BDNF en reposo; los meta-análisis solo incluyen intervenciones de 2 semanas o más [ref:dinoff2016]."
+        },
+        {
+          "dia": 28,
+          "paciente": "A las cuatro semanas, si la rutina se mantiene, el 'fertilizante' del cerebro (BDNF) tiende a subir y el ánimo empieza a mejorar de manera más estable. Todavía falta para el efecto completo.",
+          "clinico": "Elevación esperable del BDNF periférico en reposo con entrenamiento aeróbico sostenido (SMD 0.66 en el subgrupo aeróbico) [ref:dinoff2016]. En los ECA de ejercicio en depresión la mejoría suele hacerse evidente en este rango, aunque la mayoría de los ensayos evalúan el desenlace entre las 8 y 16 semanas [ref:schuch2016]."
+        },
+        {
+          "dia": 84,
+          "paciente": "A las doce semanas es cuando la mayoría de los estudios miden el beneficio, y el efecto sobre la depresión suele ser grande. El aumento de tamaño del hipocampo se ha visto tras un año en personas mayores sanas; aquí se muestra adelantado como ilustración.",
+          "clinico": "Ventana habitual de evaluación de los ECA con efecto antidepresivo grande (SMD 1.11) [ref:schuch2016]. El aumento de volumen del hipocampo anterior (+2 %) se documentó a los 12 meses en adultos mayores sanos [ref:erickson2011]; representarlo a las 12 semanas es una extrapolación del modelo, no un dato en TDM."
+        }
+      ],
+      "textos": {
+        "paciente": "Mover el cuerpo de forma constante (caminar rápido, correr, nadar, andar en bicicleta) es uno de los tratamientos sin medicamentos con más respaldo para la depresión. Cada sesión tiende a liberar sustancias parecidas a la morfina que dan bienestar por unas horas, y con las semanas el cuerpo produce más BDNF, una especie de 'fertilizante' que ayuda a que el archivo de la memoria (hipocampo) se fortalezca y a que el control del estrés se calme. El efecto no es inmediato: suele notarse a partir de la tercera o cuarta semana y crece con la constancia. En este modelo, los cambios de tamaño del hipocampo se tomaron de estudios en personas mayores sanas, así que son una aproximación de lo que podría ocurrir en la depresión.",
+        "clinico": "El ejercicio tiene un efecto antidepresivo grande en ECA (SMD ajustado por sesgo de publicación 1.11, IC 95 % 0.79–1.43; 25 ECA, 9 en TDM), mayor con ejercicio aeróbico de intensidad moderada y supervisado [ref:schuch2016]. El sustento neurobiológico es inferido de población sin TDM: en un ECA de 12 meses con 120 adultos mayores sanos, el entrenamiento aeróbico aumentó 2 % el volumen del hipocampo anterior, cambio asociado al incremento de BDNF sérico, sin cambios en caudado ni tálamo [ref:erickson2011]. El entrenamiento aeróbico, no el de resistencia, eleva el BDNF periférico en reposo (SMD 0.66) en intervenciones de 2 semanas o más [ref:dinoff2016]. Una sesión prolongada libera opioides endógenos en corteza prefrontal/orbitofrontal, cingulada anterior e ínsula, en proporción a la euforia reportada (PET con [18F]FDPN en 10 atletas) [ref:boecker2008]; ese efecto agudo se representa aquí como un impulso promedio sobre el nivel de opioides. La normalización de CPFDL, núcleo accumbens e hipotálamo (eje HPA/cortisol) se incluye por plausibilidad mecanística, no por un estudio directo en TDM, y la escala temporal de la curva es ilustrativa."
+      },
+      "refs": [
+        "schuch2016",
+        "erickson2011",
+        "dinoff2016",
+        "boecker2008"
+      ]
+    },
+    {
+      "id": "mindfulness",
+      "categoria": "estilo_vida",
+      "nombre": "Meditación mindfulness / terapia cognitiva basada en mindfulness (MBCT, programa de 8 semanas)",
+      "nombre_corto": "Mindfulness",
+      "icono": "🧘",
+      "nivel_evidencia": "inferida",
+      "resumen_evidencia": "La eficacia clínica en depresión se apoya en meta-análisis (reducción de síntomas frente a controles, Goldberg 2018; menos recaídas con MBCT, HR 0.69, Kuyken 2016), pero los cambios cerebrales mostrados (↓ reactividad de la amígdala, ↑ materia gris en hipocampo y cingulada posterior, ↑ ínsula y CPF lateral con ↓ CPF medial) se midieron en adultos sanos tras 8 semanas de entrenamiento (Hölzel 2011; Desbordes 2012; Farb 2007) y se extrapolan a la depresión. Los parámetros de la curva (mitad del efecto hacia la semana 5, techo de 55 %) son ilustrativos.",
+      "curva": {
+        "tipo": "logistica",
+        "semana_50": 5,
+        "pendiente": 1.0,
+        "e_max": 0.55
+      },
+      "efecto_global": 0.3,
+      "efecto_region": {
+        "amigdala": 0.9,
+        "cingulada_posterior": 0.8,
+        "precuneo": 0.5,
+        "insula": 0.6,
+        "hipocampo": 0.7,
+        "dlpfc": 0.5,
+        "dmpfc": 0.5
+      },
+      "efecto_nt": {
+        "cortisol": 0.4
+      },
+      "hitos": [
+        {
+          "dia": 14,
+          "paciente": "En las primeras dos semanas lo más notorio es aprender a sostener la atención y a notar los pensamientos sin engancharse; los cambios en el cerebro todavía no se detectan con estudios de imagen. Es normal que cueste.",
+          "clinico": "Fase de adquisición de la habilidad atencional. Los estudios longitudinales disponibles solo reportan cambios estructurales y funcionales al término de las 8 semanas, en adultos sanos [ref:holzel2011,desbordes2012]."
+        },
+        {
+          "dia": 56,
+          "paciente": "Al terminar las ocho semanas, en personas sanas se ha visto que la alarma emocional (amígdala) reacciona menos y que las zonas de la memoria y de la reflexión sobre uno mismo ganan un poco de 'densidad'. En depresión se espera algo parecido, aunque probablemente más lento y variable.",
+          "clinico": "Fin del protocolo: ↑ concentración de materia gris en hipocampo izquierdo y cingulada posterior (VBM, 16 vs 17 sanos) [ref:holzel2011]; ↓ activación de la amígdala derecha ante estímulos emocionales en estado no meditativo [ref:desbordes2012]; reorganización de la autorreferencia con ↑ ínsula/CPF lateral derecha y ↓ CPF medial [ref:farb2007]. Todos en adultos sanos, no en TDM."
+        },
+        {
+          "dia": 84,
+          "paciente": "Seguir practicando después del curso es lo que sostiene el beneficio: en quienes ya salieron de una depresión, tiende a bajar el riesgo de que vuelva, de forma comparable a seguir con antidepresivos.",
+          "clinico": "Fase de mantenimiento. El beneficio de la MBCT sobre la recaída se observa a lo largo de 60 semanas de seguimiento (HR 0.69; HR 0.79 frente a tratamientos activos) [ref:kuyken2016]. La curva del modelo se estabiliza en el techo asumido (55 %) de manera ilustrativa."
+        }
+      ],
+      "textos": {
+        "paciente": "Meditar con atención plena es entrenar la mente para notar pensamientos, emociones y sensaciones sin engancharse con ellos. Con práctica diaria durante ocho semanas, la alarma emocional (amígdala) tiende a reaccionar menos ante lo negativo, y la 'radio de fondo' que repasa una y otra vez los problemas (la red por defecto) tiende a bajar de volumen, mientras la zona que siente el cuerpo (ínsula) se vuelve más presente. En personas que ya salieron de una depresión, este entrenamiento reduce el riesgo de recaer de forma parecida a seguir tomando antidepresivos. Los cambios cerebrales que se muestran aquí se midieron en personas sanas; en depresión se espera algo similar, pero no está medido con la misma precisión.",
+        "clinico": "Las intervenciones basadas en mindfulness reducen síntomas frente a no tratamiento (d = 0.55) y frente a controles activos específicos (d = 0.23), sin diferir de tratamientos basados en evidencia; la evidencia es más consistente en depresión [ref:goldberg2018]. En depresión recurrente en remisión, la MBCT reduce el riesgo de recaída a 60 semanas (HR 0.69, IC 95 % 0.58–0.82; HR 0.79 frente a tratamientos activos, incluidos antidepresivos), con mayor beneficio a mayor sintomatología residual [ref:kuyken2016]. El correlato neural es inferido de adultos sanos: 8 semanas de MBSR aumentaron la concentración de materia gris en hipocampo izquierdo, cingulada posterior, unión temporoparietal y cerebelo [ref:holzel2011]; 8 semanas de entrenamiento en atención plena redujeron la activación de la amígdala derecha ante imágenes emocionales en estado no meditativo [ref:desbordes2012]; y tras el entrenamiento, el foco experiencial redujo la actividad de la CPF medial y aumentó la de una red lateral derecha (CPF lateral, ínsula, S2, lóbulo parietal inferior), desacoplando ínsula y CPF medial [ref:farb2007]. El precúneo se incluye como nodo de la red por defecto por plausibilidad anatómica, y el efecto sobre cortisol no tiene referencia directa en esta lista; ambos son supuestos del modelo."
+      },
+      "refs": [
+        "holzel2011",
+        "desbordes2012",
+        "farb2007",
+        "goldberg2018",
+        "kuyken2016"
+      ]
+    },
+    {
+      "id": "dieta",
+      "categoria": "estilo_vida",
+      "nombre": "Dieta mediterránea / mejora de la alimentación con apoyo nutricional",
+      "nombre_corto": "Dieta",
+      "icono": "🥗",
+      "nivel_evidencia": "indirecta",
+      "resumen_evidencia": "Un ECA pequeño en TDM (SMILES, 12 semanas) mostró mayor mejoría y remisión con apoyo dietético (Jacka 2017) y los estudios observacionales asocian la dieta mediterránea con menor riesgo de depresión (Lassale 2019), pero no existe neuroimagen de intervención dietética en TDM: el vínculo con el hipocampo es una asociación observacional en adultos mayores sanos (Jacka 2015). Por eso el nivel es indirecto; la inflamación, vía propuesta, no está entre los marcadores del modelo. Los parámetros de la curva (mitad del efecto hacia la semana 6, techo de 45 %) son ilustrativos.",
+      "curva": {
+        "tipo": "logistica",
+        "semana_50": 6,
+        "pendiente": 0.9,
+        "e_max": 0.45
+      },
+      "efecto_global": 0.2,
+      "efecto_region": {
+        "hipocampo": 0.6
+      },
+      "efecto_nt": {
+        "bdnf": 0.5,
+        "cortisol": 0.3
+      },
+      "hitos": [
+        {
+          "dia": 21,
+          "paciente": "Las primeras semanas son de cambiar hábitos: más verduras, frutas, legumbres, pescado y aceite de oliva, y menos ultraprocesados. Todavía no se espera un cambio medible en el cerebro ni en el ánimo; lo importante es sostenerlo.",
+          "clinico": "Fase de adopción del patrón dietético. En SMILES la intervención constó de 7 consultas nutricionales distribuidas en 12 semanas, sin mediciones intermedias del desenlace [ref:jacka2017]."
+        },
+        {
+          "dia": 84,
+          "paciente": "A las doce semanas es cuando el estudio SMILES midió el beneficio: quienes cambiaron su alimentación, junto con su tratamiento habitual, tuvieron más probabilidad de salir de la depresión que quienes solo recibieron acompañamiento.",
+          "clinico": "Desenlace primario de SMILES a 12 semanas: mayor mejoría en MADRS (d = −1.16) y remisión de 32.3 % frente a 8.0 % (NNT 4.1), en 67 participantes con tratamiento habitual concurrente [ref:jacka2017]. La protección observacional de la dieta mediterránea (RR 0.67) se refiere a incidencia a largo plazo, no a este horizonte [ref:lassale2019]. El grado de normalización mostrado (≈45 %) es ilustrativo."
+        }
+      ],
+      "textos": {
+        "paciente": "Comer mejor (más verduras, frutas, legumbres, pescado, aceite de oliva y granos enteros; menos ultraprocesados y azúcar) no cura la depresión por sí solo, pero en un estudio de 12 semanas las personas con depresión que recibieron apoyo nutricional mejoraron más que las que solo recibieron compañía. Se piensa que una buena alimentación tiende a bajar la inflamación del cuerpo y a apoyar al hipocampo, el archivo de la memoria, aunque eso se ha observado en personas mayores sanas y no se ha medido en depresión. Es un apoyo lento y modesto que suma a los demás tratamientos.",
+        "clinico": "En el ECA SMILES (n = 67, TDM moderado-grave, intervención dietética adjunta de 12 semanas frente a apoyo social), el grupo de dieta mejoró más en la MADRS (d = −1.16) y alcanzó mayor remisión (32.3 % vs 8.0 %; NNT 4.1); la muestra fue pequeña y el diseño simple ciego [ref:jacka2017]. En 20 estudios longitudinales, la mayor adherencia a la dieta mediterránea se asoció con menor incidencia de depresión (RR 0.67, IC 95 % 0.55–0.82), y un menor índice inflamatorio dietético también (RR 0.76) [ref:lassale2019]. El único sustento regional es observacional: en 255 adultos de 60–64 años sin TDM, un patrón dietético 'prudente' se asoció con mayor volumen del hipocampo izquierdo (+45.7 mm³ por DE) y un patrón 'occidental' con menor volumen (−52.6 mm³), sin efecto sobre la tasa de atrofia a 4 años [ref:jacka2015]. No existe neuroimagen de intervención dietética en TDM; los efectos sobre BDNF y cortisol, y la vía inflamatoria (no incluida como marcador en el modelo), son supuestos mecanísticos, y la curva es ilustrativa."
+      },
+      "refs": [
+        "jacka2017",
+        "lassale2019",
+        "jacka2015"
+      ]
+    },
+    {
+      "id": "escritura_expresiva",
+      "categoria": "estilo_vida",
+      "nombre": "Escritura expresiva / diario emocional (protocolo de Pennebaker: 20 min durante 3–4 días)",
+      "nombre_corto": "Escritura",
+      "icono": "📝",
+      "nivel_evidencia": "indirecta",
+      "resumen_evidencia": "Un ECA pequeño en TDM mostró menos síntomas depresivos a los 5 días y a las 4 semanas tras tres sesiones de escritura expresiva, con desenlaces solo conductuales (Krpan 2013); el mecanismo cerebral que se muestra (↓ amígdala y ↑ CPF ventrolateral al poner emociones en palabras) proviene de un estudio de fMRI en adultos sanos con una tarea de etiquetado afectivo, no de escritura (Lieberman 2007). Nivel indirecto; los parámetros de la curva (mitad del efecto hacia la semana 3, techo de 30 %) son ilustrativos.",
+      "curva": {
+        "tipo": "logistica",
+        "semana_50": 3,
+        "pendiente": 1.2,
+        "e_max": 0.3
+      },
+      "efecto_global": 0.15,
+      "efecto_region": {
+        "vlpfc": 1.0,
+        "amigdala": 0.8,
+        "acc_rostral": 0.5
+      },
+      "efecto_nt": {
+        "cortisol": 0.3
+      },
+      "hitos": [
+        {
+          "dia": 5,
+          "paciente": "Justo después de las tres sesiones puede haber un poco más de malestar por remover recuerdos, pero en el estudio las personas con depresión ya reportaban menos síntomas al quinto día.",
+          "clinico": "Reducción del BDI y del PHQ-9 al día 5 frente a escritura neutra en 40 personas con TDM [ref:krpan2013]; el malestar transitorio inmediatamente posterior a la escritura está descrito en la literatura general del paradigma [ref:baikie2005]. Sin ninguna medida cerebral."
+        },
+        {
+          "dia": 28,
+          "paciente": "A las cuatro semanas el beneficio se mantenía en el estudio. Es un efecto modesto, pero real, que ayuda a procesar lo vivido y a ponerle nombre.",
+          "clinico": "Persistencia del beneficio sintomático a 4 semanas [ref:krpan2013]. La normalización mostrada de amígdala y CPF ventrolateral es una extrapolación del mecanismo de etiquetado afectivo observado en sanos [ref:lieberman2007], no un hallazgo en TDM."
+        },
+        {
+          "dia": 84,
+          "paciente": "Más allá del primer mes no hay estudios en depresión; aquí se supone que el efecto se mantiene si se sigue escribiendo de vez en cuando.",
+          "clinico": "No hay datos de seguimiento en TDM más allá de 4 semanas [ref:krpan2013]; la meseta posterior es un supuesto ilustrativo del modelo."
+        }
+      ],
+      "textos": {
+        "paciente": "Escribir durante 20 minutos, tres o cuatro días seguidos, sobre lo que más nos duele y lo que sentimos al respecto es una herramienta sencilla. En un estudio con personas con depresión, quienes lo hicieron se sintieron mejor a los cinco días y todavía a las cuatro semanas. La idea es que ponerle palabras a una emoción tiende a bajar la alarma emocional (amígdala) y a encender la zona que nombra lo que sentimos (prefrontal ventrolateral); eso se vio en personas sanas mientras etiquetaban emociones, no escribiendo ni con depresión. Es un apoyo pequeño, puede remover cosas al principio y no sustituye al tratamiento.",
+        "clinico": "En un ECA con 40 personas con TDM actual (SCID), 20 min de escritura expresiva durante 3 días consecutivos redujeron el BDI y el PHQ-9 al día 5 y a las 4 semanas frente a escritura neutra; el desenlace fue exclusivamente conductual y la muestra autoseleccionada [ref:krpan2013]. La literatura general de escritura expresiva reporta beneficios emocionales y físicos modestos, con posible aumento transitorio del malestar inmediatamente después de escribir [ref:baikie2005]. El proxy mecanístico es indirecto: en adultos sanos, el etiquetado afectivo redujo la respuesta de la amígdala a imágenes negativas y aumentó la actividad de la CPF ventrolateral derecha, con correlación inversa mediada por la CPF medial [ref:lieberman2007]; la inclusión de la cingulada anterior rostral corresponde a esa vía medial y es plausible, no demostrada. No hay neuroimagen de escritura expresiva en TDM ni datos más allá de 4 semanas; el efecto sobre cortisol, el techo de 30 % y la meseta posterior son supuestos del modelo."
+      },
+      "refs": [
+        "krpan2013",
+        "baikie2005",
+        "lieberman2007"
+      ]
+    },
+    {
+      "id": "sobriedad",
+      "categoria": "estilo_vida",
+      "nombre": "Sobriedad: abstinencia sostenida de alcohol y otras drogas",
+      "nombre_corto": "Sobriedad",
+      "icono": "🚭",
+      "nivel_evidencia": "inferida",
+      "resumen_evidencia": "La recuperación cerebral con abstinencia está documentada por neuroimagen en personas con trastorno por uso de sustancias, no en TDM: recuperación parcial de transportadores de dopamina estriatales tras 12–17 meses sin metanfetamina (Volkow 2001) y del grosor cortical a lo largo de 7 meses sin alcohol (Durazzo 2024). Los síntomas depresivos de alcohólicos primarios caen de 42 % a 6 % en 4 semanas de abstinencia (Brown 1988), aunque la depresión mayor independiente suele persistir y requerir su propio tratamiento (Magidson 2013). La curva lineal a 180 días (≈47 % del techo a las 12 semanas) es ilustrativa.",
+      "curva": {
+        "tipo": "lineal",
+        "dias_max": 180,
+        "e_max": 0.6
+      },
+      "efecto_global": 0.35,
+      "efecto_region": {
+        "caudado": 1.0,
+        "putamen": 1.0,
+        "accumbens": 0.7,
+        "atv": 0.6,
+        "dlpfc": 0.8
+      },
+      "efecto_nt": {
+        "dopamina": 1.0,
+        "cortisol": 0.3
+      },
+      "hitos": [
+        {
+          "dia": 7,
+          "paciente": "La primera semana suele ser la más difícil: el cuerpo se ajusta y el ánimo puede estar peor antes de mejorar. Aun así, en el alcoholismo la corteza empieza a recuperar grosor desde estos primeros días.",
+          "clinico": "Fase de abstinencia aguda. En trastorno por uso de alcohol, la tasa de recuperación del grosor cortical es mayor entre la semana 1 y el mes 1 que en los meses siguientes (19/34 ROI) [ref:durazzo2024]. Los síntomas depresivos aún son prevalentes: 42 % de alcohólicos primarios con HDRS ≥ 20 al ingreso [ref:brown1988]."
+        },
+        {
+          "dia": 28,
+          "paciente": "Al mes, en personas con alcoholismo que no tenían depresión antes, la gran mayoría de los síntomas depresivos han bajado (de 42 % a 6 % con depresión importante). Si la depresión persiste, es señal de que necesita tratamiento propio.",
+          "clinico": "Solo 6 % de alcohólicos primarios permanecen clínicamente deprimidos en la semana 4 de abstinencia, con la mayor caída en la semana 2; los autores sugieren no iniciar antidepresivos antes de ese plazo en ausencia de TDM previo [ref:brown1988]. La depresión que persiste suele corresponder a TDM independiente, que requiere tratamiento específico [ref:magidson2013]."
+        },
+        {
+          "dia": 84,
+          "paciente": "A los tres meses la recuperación va a menos de la mitad de lo que puede alcanzar: la corteza sigue engrosándose y el sistema de la dopamina apenas empieza a repararse. Esto continúa durante muchos meses más.",
+          "clinico": "Punto intermedio de la recuperación cortical lineal documentada hasta 7.3 meses, con equivalencia frente a controles en 24/34 ROI al final [ref:durazzo2024]. La recuperación del DAT estriatal (+19 % caudado, +16 % putamen) se midió a 12–17 meses, por lo que su representación a las 12 semanas es interpolada [ref:volkow2001]. El modelo muestra ≈47 % del efecto máximo asumido."
+        }
+      ],
+      "textos": {
+        "paciente": "Cuando el alcohol u otras drogas se vuelven parte del día a día, el sistema de la motivación (dopamina) se 'apaga' para compensar y la corteza se adelgaza. Al dejar de consumir, el cerebro tiende a recuperarse poco a poco: la corteza vuelve a ganar grosor, más rápido el primer mes, y sigue mejorando durante meses; el sistema de la dopamina se recupera en parte, aunque tarda un año o más. Los primeros días pueden ser los más duros por la abstinencia; en personas con alcoholismo, la mayoría de los síntomas de depresión bajan mucho en un mes. Si la depresión ya existía por sí misma, la sobriedad ayuda pero normalmente no basta: hace falta tratarla también.",
+        "clinico": "Evidencia de neuroimagen en trastorno por uso de sustancias, extrapolada a TDM. En 5 consumidores de metanfetamina, la disponibilidad estriatal de DAT (PET con [11C]d-treo-metilfenidato) aumentó entre la abstinencia corta y la prolongada (12–17 meses): caudado +19 %, putamen +16 %, con recuperación neuropsicológica incompleta [ref:volkow2001]; el efecto sobre accumbens y ATV se asume por continuidad del sistema dopaminérgico mesolímbico, no por medición directa. En trastorno por uso de alcohol, el grosor cortical (FreeSurfer, 34 ROI) aumentó linealmente en 25/34 regiones a lo largo de 7.3 meses de abstinencia, con mayor tasa en el primer mes y equivalencia con controles en 24/34 ROI; la recuperación frontal anterior fue menor en fumadores activos y con factores proaterogénicos [ref:durazzo2024]. En 191 alcohólicos primarios hospitalizados, la proporción con depresión clínicamente significativa (HDRS ≥ 20) pasó de 42 % al ingreso a 6 % en la semana 4 de abstinencia [ref:brown1988]. Sin embargo, en una muestra nacional representativa la depresión inducida por sustancias fue rara y más de 95 % de los episodios posteriores fueron TDM independiente, de modo que la sobriedad no sustituye el tratamiento de la depresión comórbida [ref:magidson2013]. La normalización de cortisol es un supuesto, y la curva lineal a 180 días es ilustrativa."
+      },
+      "refs": [
+        "volkow2001",
+        "durazzo2024",
+        "brown1988",
+        "magidson2013"
+      ]
+    }
+  ],
+  "referencias": [
+    {
+      "key": "schuch2016",
+      "autores": [
+        "Schuch FB",
+        "Vancampfort D",
+        "Richards J",
+        "Rosenbaum S",
+        "Ward PB",
+        "Stubbs B"
+      ],
+      "anio": 2016,
+      "titulo": "Exercise as a treatment for depression: A meta-analysis adjusting for publication bias",
+      "revista": "Journal of Psychiatric Research",
+      "doi": "10.1016/j.jpsychires.2016.02.023",
+      "pmid": "26978184",
+      "tipo_evidencia": "meta-analisis",
+      "nota": "25 ECA (9 en TDM). Efecto grande: SMD ajustado por sesgo de publicación 1.11 (IC 95 % 0.79–1.43). Mayor efecto con ejercicio aeróbico, intensidad moderada y supervisión."
+    },
+    {
+      "key": "erickson2011",
+      "autores": [
+        "Erickson KI",
+        "Voss MW",
+        "Prakash RS",
+        "Basak C",
+        "Szabo A",
+        "Chaddock L",
+        "Kim JS",
+        "Heo S",
+        "Alves H",
+        "White SM",
+        "Wojcicki TR",
+        "Mailey E",
+        "Vieira VJ",
+        "Martin SA",
+        "Pence BD",
+        "Woods JA",
+        "McAuley E",
+        "Kramer AF"
+      ],
+      "anio": 2011,
+      "titulo": "Exercise training increases size of hippocampus and improves memory",
+      "revista": "Proceedings of the National Academy of Sciences",
+      "doi": "10.1073/pnas.1015950108",
+      "pmid": "21282661",
+      "tipo_evidencia": "neuroimagen",
+      "nota": "ECA de 12 meses con RM estructural en 120 adultos mayores SANOS: +2 % de volumen del hipocampo anterior con ejercicio aeróbico, asociado a ↑BDNF sérico; sin cambios en caudado ni tálamo. No es población con TDM."
+    },
+    {
+      "key": "dinoff2016",
+      "autores": [
+        "Dinoff A",
+        "Herrmann N",
+        "Swardfager W",
+        "Liu CS",
+        "Sherman C",
+        "Chan S",
+        "Lanctôt KL"
+      ],
+      "anio": 2016,
+      "titulo": "The Effect of Exercise Training on Resting Concentrations of Peripheral Brain-Derived Neurotrophic Factor (BDNF): A Meta-Analysis",
+      "revista": "PLoS ONE",
+      "doi": "10.1371/journal.pone.0163037",
+      "pmid": "27658238",
+      "tipo_evidencia": "meta-analisis",
+      "nota": "29 estudios de intervenciones ≥2 semanas, población mayormente sin TDM. BDNF periférico en reposo: SMD 0.39 global; aeróbico SMD 0.66; resistencia sin efecto."
+    },
+    {
+      "key": "boecker2008",
+      "autores": [
+        "Boecker H",
+        "Sprenger T",
+        "Spilker ME",
+        "Henriksen G",
+        "Koppenhoefer M",
+        "Wagner KJ",
+        "Valet M",
+        "Berthele A",
+        "Tolle TR"
+      ],
+      "anio": 2008,
+      "titulo": "The runner's high: opioidergic mechanisms in the human brain",
+      "revista": "Cerebral Cortex",
+      "doi": "10.1093/cercor/bhn013",
+      "pmid": "18296435",
+      "tipo_evidencia": "neuroimagen",
+      "nota": "PET con [18F]FDPN en 10 atletas sanos tras 2 h de carrera: ↓ disponibilidad de receptores opioides (liberación endógena) en corteza prefrontal/orbitofrontal, cingulada anterior e ínsula, correlacionada con la euforia. Efecto agudo, no crónico."
+    },
+    {
+      "key": "holzel2011",
+      "autores": [
+        "Hölzel BK",
+        "Carmody J",
+        "Vangel M",
+        "Congleton C",
+        "Yerramsetti SM",
+        "Gard T",
+        "Lazar SW"
+      ],
+      "anio": 2011,
+      "titulo": "Mindfulness practice leads to increases in regional brain gray matter density",
+      "revista": "Psychiatry Research: Neuroimaging",
+      "doi": "10.1016/j.pscychresns.2010.08.006",
+      "pmid": "21071182",
+      "tipo_evidencia": "neuroimagen",
+      "nota": "VBM longitudinal en 16 adultos sanos tras MBSR de 8 semanas vs 17 en lista de espera: ↑ materia gris en hipocampo izquierdo (ROI a priori), cingulada posterior, unión temporoparietal y cerebelo. Muestra pequeña, sanos."
+    },
+    {
+      "key": "desbordes2012",
+      "autores": [
+        "Desbordes G",
+        "Negi LT",
+        "Pace TW",
+        "Wallace BA",
+        "Raison CL",
+        "Schwartz EL"
+      ],
+      "anio": 2012,
+      "titulo": "Effects of mindful-attention and compassion meditation training on amygdala response to emotional stimuli in an ordinary, non-meditative state",
+      "revista": "Frontiers in Human Neuroscience",
+      "doi": "10.3389/fnhum.2012.00292",
+      "pmid": "23125828",
+      "tipo_evidencia": "neuroimagen",
+      "nota": "fMRI pre/post en adultos sanos: 8 semanas de entrenamiento en atención plena redujeron la activación de la amígdala derecha ante imágenes emocionales (todas las valencias) en estado no meditativo; sin cambios en el control activo."
+    },
+    {
+      "key": "farb2007",
+      "autores": [
+        "Farb NA",
+        "Segal ZV",
+        "Mayberg H",
+        "Bean J",
+        "McKeon D",
+        "Fatima Z",
+        "Anderson AK"
+      ],
+      "anio": 2007,
+      "titulo": "Attending to the present: mindfulness meditation reveals distinct neural modes of self-reference",
+      "revista": "Social Cognitive and Affective Neuroscience",
+      "doi": "10.1093/scan/nsm030",
+      "pmid": "18985137",
+      "tipo_evidencia": "neuroimagen",
+      "nota": "fMRI en adultos sanos con y sin curso de mindfulness de 8 semanas: el foco experiencial redujo la CPF medial y aumentó una red lateral derecha (CPF lateral, ínsula, S2, lóbulo parietal inferior); desacoplamiento ínsula–CPF medial en el grupo entrenado."
+    },
+    {
+      "key": "goldberg2018",
+      "autores": [
+        "Goldberg SB",
+        "Tucker RP",
+        "Greene PA",
+        "Davidson RJ",
+        "Wampold BE",
+        "Kearney DJ",
+        "Simpson TL"
+      ],
+      "anio": 2018,
+      "titulo": "Mindfulness-based interventions for psychiatric disorders: A systematic review and meta-analysis",
+      "revista": "Clinical Psychology Review",
+      "doi": "10.1016/j.cpr.2017.10.011",
+      "pmid": "29126747",
+      "tipo_evidencia": "meta-analisis",
+      "nota": "142 muestras, 12 005 participantes con trastornos psiquiátricos. Postratamiento: d 0.55 vs sin tratamiento, d 0.23 vs controles activos específicos; sin diferencia frente a tratamientos basados en evidencia. Evidencia más consistente en depresión."
+    },
+    {
+      "key": "kuyken2016",
+      "autores": [
+        "Kuyken W",
+        "Warren FC",
+        "Taylor RS",
+        "Whalley B",
+        "Crane C",
+        "Bondolfi G",
+        "Hayes R",
+        "Huijbers M",
+        "Ma H",
+        "Schweizer S",
+        "Segal Z",
+        "Speckens A",
+        "Teasdale JD",
+        "Van Heeringen K",
+        "Williams M",
+        "Byford S",
+        "Byng R",
+        "Dalgleish T"
+      ],
+      "anio": 2016,
+      "titulo": "Efficacy of Mindfulness-Based Cognitive Therapy in Prevention of Depressive Relapse: An Individual Patient Data Meta-analysis From Randomized Trials",
+      "revista": "JAMA Psychiatry",
+      "doi": "10.1001/jamapsychiatry.2016.0076",
+      "pmid": "27119968",
+      "tipo_evidencia": "meta-analisis",
+      "nota": "Meta-análisis de datos individuales: 9 ECA, 1258 pacientes con depresión recurrente en remisión. MBCT redujo el riesgo de recaída a 60 semanas (HR 0.69, IC 95 % 0.58–0.82); frente a tratamientos activos HR 0.79 (0.64–0.97). Mayor beneficio con más síntomas residuales."
+    },
+    {
+      "key": "jacka2017",
+      "autores": [
+        "Jacka FN",
+        "O'Neil A",
+        "Opie R",
+        "Itsiopoulos C",
+        "Cotton S",
+        "Mohebbi M",
+        "Castle D",
+        "Dash S",
+        "Mihalopoulos C",
+        "Chatterton ML",
+        "Brazionis L",
+        "Dean OM",
+        "Hodge AM",
+        "Berk M"
+      ],
+      "anio": 2017,
+      "titulo": "A randomised controlled trial of dietary improvement for adults with major depression (the 'SMILES' trial)",
+      "revista": "BMC Medicine",
+      "doi": "10.1186/s12916-017-0791-y",
+      "pmid": "28137247",
+      "tipo_evidencia": "RCT",
+      "nota": "Ensayo SMILES: 67 adultos con TDM moderado-grave, 12 semanas, 7 consultas nutricionales (dieta mediterránea modificada) vs apoyo social, adjunto al tratamiento habitual. MADRS d = −1.16; remisión 32.3 % vs 8.0 %; NNT 4.1. Muestra pequeña, simple ciego. Sin neuroimagen."
+    },
+    {
+      "key": "lassale2019",
+      "autores": [
+        "Lassale C",
+        "Batty GD",
+        "Baghdadli A",
+        "Jacka F",
+        "Sánchez-Villegas A",
+        "Kivimäki M",
+        "Akbaraly T"
+      ],
+      "anio": 2019,
+      "titulo": "Healthy dietary indices and risk of depressive outcomes: a systematic review and meta-analysis of observational studies",
+      "revista": "Molecular Psychiatry",
+      "doi": "10.1038/s41380-018-0237-8",
+      "pmid": "30254236",
+      "tipo_evidencia": "meta-analisis",
+      "nota": "Publicado en línea en 2018 (impreso 2019). 20 estudios longitudinales + 21 transversales. Dieta mediterránea (mayor vs menor adherencia): RR de depresión incidente 0.67 (IC 95 % 0.55–0.82); índice inflamatorio dietético bajo: RR 0.76. Solo observacional."
+    },
+    {
+      "key": "jacka2015",
+      "autores": [
+        "Jacka FN",
+        "Cherbuin N",
+        "Anstey KJ",
+        "Sachdev P",
+        "Butterworth P"
+      ],
+      "anio": 2015,
+      "titulo": "Western diet is associated with a smaller hippocampus: a longitudinal investigation",
+      "revista": "BMC Medicine",
+      "doi": "10.1186/s12916-015-0461-x",
+      "pmid": "26349802",
+      "tipo_evidencia": "observacional",
+      "nota": "255 adultos de 60–64 años sin TDM, dos RM con ~4 años de diferencia. Patrón 'prudente': +45.7 mm³ de hipocampo izquierdo por DE; patrón 'occidental': −52.6 mm³. Sin efecto sobre la tasa de atrofia ni sobre el hipocampo derecho. Asociación, no intervención."
+    },
+    {
+      "key": "krpan2013",
+      "autores": [
+        "Krpan KM",
+        "Kross E",
+        "Berman MG",
+        "Deldin PJ",
+        "Askren MK",
+        "Jonides J"
+      ],
+      "anio": 2013,
+      "titulo": "An everyday activity as a treatment for depression: the benefits of expressive writing for people diagnosed with major depressive disorder",
+      "revista": "Journal of Affective Disorders",
+      "doi": "10.1016/j.jad.2013.05.065",
+      "pmid": "23790815",
+      "tipo_evidencia": "RCT",
+      "nota": "40 personas con TDM actual (SCID): 20 min de escritura expresiva × 3 días vs escritura neutra. ↓ BDI y PHQ-9 al día 5 y a las 4 semanas. Desenlaces solo conductuales; muestra autoseleccionada; sin seguimiento posterior."
+    },
+    {
+      "key": "baikie2005",
+      "autores": [
+        "Baikie KA",
+        "Wilhelm K"
+      ],
+      "anio": 2005,
+      "titulo": "Emotional and physical health benefits of expressive writing",
+      "revista": "Advances in Psychiatric Treatment",
+      "doi": "10.1192/apt.11.5.338",
+      "pmid": null,
+      "tipo_evidencia": "revision",
+      "nota": "Revisión narrativa del paradigma de Pennebaker: beneficios emocionales y físicos modestos, posible aumento transitorio del malestar tras escribir. Revista no indexada en PubMed (sin PMID); DOI verificado en CrossRef."
+    },
+    {
+      "key": "lieberman2007",
+      "autores": [
+        "Lieberman MD",
+        "Eisenberger NI",
+        "Crockett MJ",
+        "Tom SM",
+        "Pfeifer JH",
+        "Way BM"
+      ],
+      "anio": 2007,
+      "titulo": "Putting feelings into words: affect labeling disrupts amygdala activity in response to affective stimuli",
+      "revista": "Psychological Science",
+      "doi": "10.1111/j.1467-9280.2007.01916.x",
+      "pmid": "17576282",
+      "tipo_evidencia": "neuroimagen",
+      "nota": "fMRI en adultos sanos: etiquetar el afecto de imágenes negativas redujo la respuesta de la amígdala y aumentó la CPF ventrolateral derecha; correlación inversa mediada por la CPF medial. Tarea de etiquetado, no escritura; proxy mecanístico."
+    },
+    {
+      "key": "volkow2001",
+      "autores": [
+        "Volkow ND",
+        "Chang L",
+        "Wang GJ",
+        "Fowler JS",
+        "Franceschi D",
+        "Sedler M",
+        "Gatley SJ",
+        "Miller E",
+        "Hitzemann R",
+        "Ding YS",
+        "Logan J"
+      ],
+      "anio": 2001,
+      "titulo": "Loss of dopamine transporters in methamphetamine abusers recovers with protracted abstinence",
+      "revista": "Journal of Neuroscience",
+      "doi": "10.1523/JNEUROSCI.21-23-09414.2001",
+      "pmid": "11717374",
+      "tipo_evidencia": "neuroimagen",
+      "nota": "PET con [11C]d-treo-metilfenidato en 5 consumidores de metanfetamina: DAT estriatal aumentó entre la abstinencia corta (<6 meses) y la prolongada (12–17 meses): caudado +19 %, putamen +16 %. Mejoría neuropsicológica no significativa. Muestra muy pequeña; no TDM."
+    },
+    {
+      "key": "durazzo2024",
+      "autores": [
+        "Durazzo TC",
+        "Stephens LH",
+        "Meyerhoff DJ"
+      ],
+      "anio": 2024,
+      "titulo": "Regional cortical thickness recovery with extended abstinence after treatment in those with alcohol use disorder",
+      "revista": "Alcohol",
+      "doi": "10.1016/j.alcohol.2023.08.011",
+      "pmid": "37657667",
+      "tipo_evidencia": "neuroimagen",
+      "nota": "TUA evaluado a ~1 semana (n=68), 1 mes (n=88) y 7.3 meses (n=40) de abstinencia; 34 ROI bilaterales (FreeSurfer). ↑ lineal del grosor en 25/34 ROI; mayor tasa en el primer mes; equivalencia con controles en 24/34 ROI a 7.3 meses. Menor recuperación frontal anterior con tabaquismo y factores proaterogénicos."
+    },
+    {
+      "key": "brown1988",
+      "autores": [
+        "Brown SA",
+        "Schuckit MA"
+      ],
+      "anio": 1988,
+      "titulo": "Changes in depression among abstinent alcoholics",
+      "revista": "Journal of Studies on Alcohol",
+      "doi": "10.15288/jsa.1988.49.412",
+      "pmid": "3216643",
+      "tipo_evidencia": "observacional",
+      "nota": "191 alcohólicos primarios varones hospitalizados (sin trastorno psiquiátrico previo), HDRS semanal: 42 % con depresión clínicamente significativa (≥20) al ingreso → 6 % en la semana 4 de abstinencia; mayor caída en la semana 2; síntomas vegetativos persisten más."
+    },
+    {
+      "key": "magidson2013",
+      "autores": [
+        "Magidson JF",
+        "Wang S",
+        "Lejuez CW",
+        "Iza M",
+        "Blanco C"
+      ],
+      "anio": 2013,
+      "titulo": "Prospective study of substance-induced and independent major depressive disorder among individuals with substance use disorders in a nationally representative sample",
+      "revista": "Depression and Anxiety",
+      "doi": "10.1002/da.22122",
+      "pmid": "23649540",
+      "tipo_evidencia": "observacional",
+      "nota": "NESARC, n = 2121 con trastorno por uso de sustancias, seguimiento a 3 años: la depresión inducida por sustancias fue rara y >95 % de los episodios depresivos posteriores en quienes la tenían fueron TDM independiente. Implica que la sobriedad no sustituye el tratamiento del TDM comórbido."
+    }
+  ]
+}

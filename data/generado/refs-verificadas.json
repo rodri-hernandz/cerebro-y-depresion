@@ -1,0 +1,617 @@
+{
+ "generado": "2026-09-18T01:34:03.214Z",
+ "referencias": {
+  "aron2005": {
+   "hash": "26150cfc5f5d922c1d5111bc24ae7cf63cb165a7",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Reward, Motivation, and Emotion Systems Associated With Early-Stage Intense Romantic Love",
+    "revista": "Journal of Neurophysiology",
+    "anio": 2005
+   },
+   "pubmed": {
+    "titulo": "Reward, motivation, and emotion systems associated with early-stage intense romantic love."
+   },
+   "fecha": "2026-09-18T01:32:30.440Z"
+  },
+  "baikie2005": {
+   "hash": "960474772ca2f68523c22c4970c22e98cc7f8324",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Emotional and physical health benefits of expressive writing",
+    "revista": "Advances in Psychiatric Treatment",
+    "anio": 2005
+   },
+   "pubmed": null,
+   "fecha": "2026-09-18T01:32:30.658Z"
+  },
+  "bartels2000": {
+   "hash": "41ebe8791fe1c63908118831a1c9295a0cca6636",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "The neural basis of romantic love",
+    "revista": "NeuroReport",
+    "anio": 2000
+   },
+   "pubmed": {
+    "titulo": "The neural basis of romantic love."
+   },
+   "fecha": "2026-09-18T01:32:31.824Z"
+  },
+  "bartholomew2005": {
+   "hash": "f250a2245d3fb6844055dff7d0388f5b2ca68d6b",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Effects of Acute Exercise on Mood and Well-Being in Patients with Major Depressive Disorder",
+    "revista": "Medicine &amp; Science in Sports &amp; Exercise",
+    "anio": 2005
+   },
+   "pubmed": {
+    "titulo": "Effects of acute exercise on mood and well-being in patients with major depressive disorder."
+   },
+   "fecha": "2026-09-18T01:32:32.758Z"
+  },
+  "blood2001": {
+   "hash": "4161a3858d5bd058feb507a0ae13cdef9e891c80",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Intensely pleasurable responses to music correlate with activity in brain regions implicated in reward and emotion",
+    "revista": "Proceedings of the National Academy of Sciences",
+    "anio": 2001
+   },
+   "pubmed": {
+    "titulo": "Intensely pleasurable responses to music correlate with activity in brain regions implicated in reward and emotion."
+   },
+   "fecha": "2026-09-18T01:32:33.900Z"
+  },
+  "boecker2008": {
+   "hash": "a70ad9a2a4e664aa789d53dd7a1fcb717b27960f",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "The Runner's High: Opioidergic Mechanisms in the Human Brain",
+    "revista": "Cerebral Cortex",
+    "anio": 2008
+   },
+   "pubmed": {
+    "titulo": "The runner's high: opioidergic mechanisms in the human brain."
+   },
+   "fecha": "2026-09-18T01:32:34.841Z"
+  },
+  "brown1988": {
+   "hash": "2517f84da788bc577c8e7936a1b8f47f041821b1",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Changes in depression among abstinent alcoholics.",
+    "revista": "Journal of Studies on Alcohol",
+    "anio": 1988
+   },
+   "pubmed": {
+    "titulo": "Changes in depression among abstinent alcoholics."
+   },
+   "fecha": "2026-09-18T01:32:35.962Z"
+  },
+  "bunzeck2006": {
+   "hash": "dcd240eef1d830ea9c3917b02986fe398ba38ebc",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Absolute Coding of Stimulus Novelty in the Human Substantia Nigra/VTA",
+    "revista": "Neuron",
+    "anio": 2006
+   },
+   "pubmed": {
+    "titulo": "Absolute coding of stimulus novelty in the human substantia nigra/VTA."
+   },
+   "fecha": "2026-09-18T01:32:36.917Z"
+  },
+  "burke2005": {
+   "hash": "4288fad4e7dce66874aedc9c4b920105c831b7bf",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Depression and cortisol responses to psychological stress: A meta-analysis",
+    "revista": "Psychoneuroendocrinology",
+    "anio": 2005
+   },
+   "pubmed": {
+    "titulo": "Depression and cortisol responses to psychological stress: a meta-analysis."
+   },
+   "fecha": "2026-09-18T01:32:38.052Z"
+  },
+  "coan2006": {
+   "hash": "94f18bf90ddbad20d291a0b9e0ac88b50e51e063",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Lending a Hand",
+    "revista": "Psychological Science",
+    "anio": 2006
+   },
+   "pubmed": {
+    "titulo": "Lending a hand: social regulation of the neural response to threat."
+   },
+   "fecha": "2026-09-18T01:34:05.332Z"
+  },
+  "desbordes2012": {
+   "hash": "8ef690d708efdcf271f75606dec348b425d9f49f",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Effects of mindful-attention and compassion meditation training on amygdala response to emotional stimuli in an ordinary, non-meditative state",
+    "revista": "Frontiers in Human Neuroscience",
+    "anio": 2012
+   },
+   "pubmed": {
+    "titulo": "Effects of mindful-attention and compassion meditation training on amygdala response to emotional stimuli in an ordinary, non-meditative state."
+   },
+   "fecha": "2026-09-18T01:32:40.356Z"
+  },
+  "dinoff2016": {
+   "hash": "f9ed1de3cb119421eed7497e0fc1d2a2112f4ced",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "The Effect of Exercise Training on Resting Concentrations of Peripheral Brain-Derived Neurotrophic Factor (BDNF): A Meta-Analysis",
+    "revista": "PLOS ONE",
+    "anio": 2016
+   },
+   "pubmed": {
+    "titulo": "The Effect of Exercise Training on Resting Concentrations of Peripheral Brain-Derived Neurotrophic Factor (BDNF): A Meta-Analysis."
+   },
+   "fecha": "2026-09-18T01:32:41.751Z"
+  },
+  "durazzo2024": {
+   "hash": "bdb7cbfd72da9e1be7e596776ecd1411eb5614e3",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Regional cortical thickness recovery with extended abstinence after treatment in those with alcohol use disorder",
+    "revista": "Alcohol",
+    "anio": 2024
+   },
+   "pubmed": {
+    "titulo": "Regional cortical thickness recovery with extended abstinence after treatment in those with alcohol use disorder."
+   },
+   "fecha": "2026-09-18T01:32:42.897Z"
+  },
+  "erickson2011": {
+   "hash": "a97fb8272c1970a1a2b6310fce52e6edb347182d",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Exercise training increases size of hippocampus and improves memory",
+    "revista": "Proceedings of the National Academy of Sciences",
+    "anio": 2011
+   },
+   "pubmed": {
+    "titulo": "Exercise training increases size of hippocampus and improves memory."
+   },
+   "fecha": "2026-09-18T01:32:44.047Z"
+  },
+  "farb2007": {
+   "hash": "089a42b28daf8c5cca4261848daa69cd4ab519f6",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Attending to the present: mindfulness meditation reveals distinct neural modes of self-reference",
+    "revista": "Social Cognitive and Affective Neuroscience",
+    "anio": 2007
+   },
+   "pubmed": {
+    "titulo": "Attending to the present: mindfulness meditation reveals distinct neural modes of self-reference."
+   },
+   "fecha": "2026-09-18T01:32:45.253Z"
+  },
+  "georgiadis2006": {
+   "hash": "a33a37a9ea580e8a7c1fc4d3bb5388237a9d9e48",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Regional cerebral blood flow changes associated with clitorally induced orgasm in healthy women",
+    "revista": "European Journal of Neuroscience",
+    "anio": 2006
+   },
+   "pubmed": {
+    "titulo": "Regional cerebral blood flow changes associated with clitorally induced orgasm in healthy women."
+   },
+   "fecha": "2026-09-18T01:32:46.389Z"
+  },
+  "godlewska2012": {
+   "hash": "9e935848ac0ecdcc11934b2cb418ee1e8fce2cac",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Short-term SSRI treatment normalises amygdala hyperactivity in depressed patients",
+    "revista": "Psychological Medicine",
+    "anio": 2012
+   },
+   "pubmed": null,
+   "fecha": "2026-09-18T01:32:46.630Z"
+  },
+  "goldberg2018": {
+   "hash": "981d5e64543a01f8bea02618c80a602424a10099",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Mindfulness-based interventions for psychiatric disorders: A systematic review and meta-analysis",
+    "revista": "Clinical Psychology Review",
+    "anio": 2018
+   },
+   "pubmed": {
+    "titulo": "Mindfulness-based interventions for psychiatric disorders: A systematic review and meta-analysis."
+   },
+   "fecha": "2026-09-18T01:32:47.591Z"
+  },
+  "hamilton2012": {
+   "hash": "29ab901ba26382588f27c175ecd30c8ab4f6517e",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Functional Neuroimaging of Major Depressive Disorder: A Meta-Analysis and New Integration of Baseline Activation and Neural Response Data",
+    "revista": "American Journal of Psychiatry",
+    "anio": 2012
+   },
+   "pubmed": {
+    "titulo": "Functional neuroimaging of major depressive disorder: a meta-analysis and new integration of base line activation and neural response data."
+   },
+   "fecha": "2026-09-18T01:32:48.766Z"
+  },
+  "hare2013": {
+   "hash": "fc82584630be0e4f4ce4d59b331e9a306c43b6b6",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "State anxiety and cortisol reactivity to skydiving in novice versus experienced skydivers",
+    "revista": "Physiology &amp; Behavior",
+    "anio": 2013
+   },
+   "pubmed": {
+    "titulo": "State anxiety and cortisol reactivity to skydiving in novice versus experienced skydivers."
+   },
+   "fecha": "2026-09-18T01:32:49.927Z"
+  },
+  "holstege2003": {
+   "hash": "9c6cdf17bbfea73b54c609ec6715a73e625b7247",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Brain Activation during Human Male Ejaculation",
+    "revista": "The Journal of Neuroscience",
+    "anio": 2003
+   },
+   "pubmed": {
+    "titulo": "Brain activation during human male ejaculation."
+   },
+   "fecha": "2026-09-18T01:32:51.097Z"
+  },
+  "holzel2011": {
+   "hash": "41f08ef850c3afbfc76a38a765619441a3574231",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Mindfulness practice leads to increases in regional brain gray matter density",
+    "revista": "Psychiatry Research: Neuroimaging",
+    "anio": 2011
+   },
+   "pubmed": {
+    "titulo": "Mindfulness practice leads to increases in regional brain gray matter density."
+   },
+   "fecha": "2026-09-18T01:32:52.347Z"
+  },
+  "inagaki2012": {
+   "hash": "389047fb87be57f372de95bffc54e45090d9929b",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Neural Correlates of Giving Support to a Loved One",
+    "revista": "Psychosomatic Medicine",
+    "anio": 2012
+   },
+   "pubmed": {
+    "titulo": "Neural correlates of giving support to a loved one."
+   },
+   "fecha": "2026-09-18T01:32:53.440Z"
+  },
+  "jacka2015": {
+   "hash": "f51afe9fe12f0ddcb0a9a31c0c6be85167e10fec",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Western diet is associated with a smaller hippocampus: a longitudinal investigation",
+    "revista": "BMC Medicine",
+    "anio": 2015
+   },
+   "pubmed": {
+    "titulo": "Western diet is associated with a smaller hippocampus: a longitudinal investigation."
+   },
+   "fecha": "2026-09-18T01:32:54.469Z"
+  },
+  "jacka2017": {
+   "hash": "3ce1ec5ae2cdb97b23b2e339da5542991ed976ac",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "A randomised controlled trial of dietary improvement for adults with major depression (the ‘SMILES’ trial)",
+    "revista": "BMC Medicine",
+    "anio": 2017
+   },
+   "pubmed": {
+    "titulo": "A randomised controlled trial of dietary improvement for adults with major depression (the 'SMILES' trial)."
+   },
+   "fecha": "2026-09-18T01:32:55.651Z"
+  },
+  "keren2018": {
+   "hash": "3c349f6c287343585d7209fbdb3a47d85866ef05",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Reward Processing in Depression: A Conceptual and Meta-Analytic Review Across fMRI and EEG Studies",
+    "revista": "American Journal of Psychiatry",
+    "anio": 2018
+   },
+   "pubmed": {
+    "titulo": "Reward Processing in Depression: A Conceptual and Meta-Analytic Review Across fMRI and EEG Studies."
+   },
+   "fecha": "2026-09-18T01:32:56.828Z"
+  },
+  "kirsch2005": {
+   "hash": "b2f3c50fd6214064201751027228261306329899",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Oxytocin Modulates Neural Circuitry for Social Cognition and Fear in Humans",
+    "revista": "The Journal of Neuroscience",
+    "anio": 2005
+   },
+   "pubmed": {
+    "titulo": "Oxytocin modulates neural circuitry for social cognition and fear in humans."
+   },
+   "fecha": "2026-09-18T01:32:58.121Z"
+  },
+  "krpan2013": {
+   "hash": "ebd831989db48fbe3c9f092dcd90af9f9ebe80a3",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "An everyday activity as a treatment for depression: The benefits of expressive writing for people diagnosed with major depressive disorder",
+    "revista": "Journal of Affective Disorders",
+    "anio": 2013
+   },
+   "pubmed": {
+    "titulo": "An everyday activity as a treatment for depression: the benefits of expressive writing for people diagnosed with major depressive disorder."
+   },
+   "fecha": "2026-09-18T01:32:59.154Z"
+  },
+  "kuyken2016": {
+   "hash": "33eafe85b519d1a5d749ade563df0fb3bd086bb3",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Efficacy of Mindfulness-Based Cognitive Therapy in Prevention of Depressive Relapse",
+    "revista": "JAMA Psychiatry",
+    "anio": 2016
+   },
+   "pubmed": {
+    "titulo": "Efficacy of Mindfulness-Based Cognitive Therapy in Prevention of Depressive Relapse: An Individual Patient Data Meta-analysis From Randomized Trials."
+   },
+   "fecha": "2026-09-18T01:34:06.466Z"
+  },
+  "lassale2019": {
+   "hash": "ba5d1bedc3135cabb12eff01c21fa7b2c38ba46a",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Healthy dietary indices and risk of depressive outcomes: a\n              systematic review and meta-analysis of observational studies",
+    "revista": "Molecular Psychiatry",
+    "anio": 2018
+   },
+   "pubmed": {
+    "titulo": "Healthy dietary indices and risk of depressive outcomes: a systematic review and meta-analysis of observational studies."
+   },
+   "fecha": "2026-09-18T01:33:01.551Z"
+  },
+  "leknes2011": {
+   "hash": "9a43620927e53179ed2531840a12ec2bd89055e8",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Relief as a Reward: Hedonic and Neural Responses to Safety from Pain",
+    "revista": "PLoS ONE",
+    "anio": 2011
+   },
+   "pubmed": {
+    "titulo": "Relief as a reward: hedonic and neural responses to safety from pain."
+   },
+   "fecha": "2026-09-18T01:33:02.799Z"
+  },
+  "lepping2016": {
+   "hash": "137e4f0663aee3c5e806834391d51159f9edadea",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Neural Processing of Emotional Musical and Nonmusical Stimuli in Depression",
+    "revista": "PLOS ONE",
+    "anio": 2016
+   },
+   "pubmed": {
+    "titulo": "Neural Processing of Emotional Musical and Nonmusical Stimuli in Depression."
+   },
+   "fecha": "2026-09-18T01:33:03.986Z"
+  },
+  "lieberman2007": {
+   "hash": "30f4febe076204a8eae02d770c6a0e606bd984d1",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Putting Feelings Into Words",
+    "revista": "Psychological Science",
+    "anio": 2007
+   },
+   "pubmed": {
+    "titulo": "Putting feelings into words: affect labeling disrupts amygdala activity in response to affective stimuli."
+   },
+   "fecha": "2026-09-18T01:34:07.602Z"
+  },
+  "loken2009": {
+   "hash": "634f482df582ab140894ed67ba7f510b5786ee99",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Coding of pleasant touch by unmyelinated afferents in humans",
+    "revista": "Nature Neuroscience",
+    "anio": 2009
+   },
+   "pubmed": {
+    "titulo": "Coding of pleasant touch by unmyelinated afferents in humans."
+   },
+   "fecha": "2026-09-18T01:33:06.315Z"
+  },
+  "magidson2013": {
+   "hash": "924e37cbe2327245bb12a352a26b0daa1500f4ae",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "PROSPECTIVE STUDY OF SUBSTANCE-INDUCED AND INDEPENDENT MAJOR DEPRESSIVE DISORDER AMONG INDIVIDUALS WITH SUBSTANCE USE DISORDERS IN A NATIONALLY REPRESENTATIVE SAMPLE",
+    "revista": "Depression and Anxiety",
+    "anio": 2013
+   },
+   "pubmed": {
+    "titulo": "Prospective study of substance-induced and independent major depressive disorder among individuals with substance use disorders in a nationally representative sample."
+   },
+   "fecha": "2026-09-18T01:33:07.268Z"
+  },
+  "ng2019": {
+   "hash": "aa734e0656f2328e7f5c42c7a1727f385bb44b2b",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Meta-analysis of reward processing in major depressive disorder reveals distinct abnormalities within the reward circuit",
+    "revista": "Translational Psychiatry",
+    "anio": 2019
+   },
+   "pubmed": {
+    "titulo": "Meta-analysis of reward processing in major depressive disorder reveals distinct abnormalities within the reward circuit."
+   },
+   "fecha": "2026-09-18T01:33:08.839Z"
+  },
+  "olausson2002": {
+   "hash": "3578d29ab113fe3fa6fed5c4ff1915be8d1fe4cd",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Unmyelinated tactile afferents signal touch and project to insular cortex",
+    "revista": "Nature Neuroscience",
+    "anio": 2002
+   },
+   "pubmed": {
+    "titulo": "Unmyelinated tactile afferents signal touch and project to insular cortex."
+   },
+   "fecha": "2026-09-18T01:33:09.797Z"
+  },
+  "osuch2009": {
+   "hash": "c1b68b33a621f0a899781130ad8c82f5e8e1b2c5",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Brain activation to favorite music in healthy controls and depressed patients",
+    "revista": "NeuroReport",
+    "anio": 2009
+   },
+   "pubmed": {
+    "titulo": "Brain activation to favorite music in healthy controls and depressed patients."
+   },
+   "fecha": "2026-09-18T01:33:10.952Z"
+  },
+  "salimpoor2011": {
+   "hash": "0c60a1247dcae5966dab9a2bd443c85ebcc4e6f2",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Anatomically distinct dopamine release during anticipation and experience of peak emotion to music",
+    "revista": "Nature Neuroscience",
+    "anio": 2011
+   },
+   "pubmed": {
+    "titulo": "Anatomically distinct dopamine release during anticipation and experience of peak emotion to music."
+   },
+   "fecha": "2026-09-18T01:33:12.205Z"
+  },
+  "sara2009": {
+   "hash": "bf16eaf0fdfc8328853072a7a3383cdd8861a47e",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "The locus coeruleus and noradrenergic modulation of cognition",
+    "revista": "Nature Reviews Neuroscience",
+    "anio": 2009
+   },
+   "pubmed": {
+    "titulo": "The locus coeruleus and noradrenergic modulation of cognition."
+   },
+   "fecha": "2026-09-18T01:33:13.388Z"
+  },
+  "schuch2016": {
+   "hash": "b6aca9ad11d1293aa804258ac7ce01b9a36af65a",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Exercise as a treatment for depression: A meta-analysis adjusting for publication bias",
+    "revista": "Journal of Psychiatric Research",
+    "anio": 2016
+   },
+   "pubmed": {
+    "titulo": "Exercise as a treatment for depression: A meta-analysis adjusting for publication bias."
+   },
+   "fecha": "2026-09-18T01:33:14.552Z"
+  },
+  "stetler2011": {
+   "hash": "2eff9dc4c69cf0cb5cbd4b6df6508f6c20a8e0bc",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Depression and Hypothalamic-Pituitary-Adrenal Activation: A Quantitative Summary of Four Decades of Research",
+    "revista": "Psychosomatic Medicine",
+    "anio": 2011
+   },
+   "pubmed": {
+    "titulo": "Depression and hypothalamic-pituitary-adrenal activation: a quantitative summary of four decades of research."
+   },
+   "fecha": "2026-09-18T01:33:15.500Z"
+  },
+  "szuhany2015": {
+   "hash": "593dc89cae4f37772ee4a06f10b1b1ac1a208853",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "A meta-analytic review of the effects of exercise on brain-derived neurotrophic factor",
+    "revista": "Journal of Psychiatric Research",
+    "anio": 2015
+   },
+   "pubmed": {
+    "titulo": "A meta-analytic review of the effects of exercise on brain-derived neurotrophic factor."
+   },
+   "fecha": "2026-09-18T01:33:16.464Z"
+  },
+  "volkow2001": {
+   "hash": "57e9ec62726d75160a5dae28511969f294549467",
+   "estado": "verificada",
+   "problemas": [],
+   "crossref": {
+    "titulo": "Loss of Dopamine Transporters in Methamphetamine Abusers Recovers with Protracted Abstinence",
+    "revista": "The Journal of Neuroscience",
+    "anio": 2001
+   },
+   "pubmed": {
+    "titulo": "Loss of dopamine transporters in methamphetamine abusers recovers with protracted abstinence."
+   },
+   "fecha": "2026-09-18T01:33:17.637Z"
+  }
+ }
+}
